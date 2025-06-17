@@ -1,0 +1,28 @@
+baseURL: https://example.org/
+languageCode: zh-cn
+title: YUKIPEDIA's blog
+theme: ["PaperMod"]
+
+params:
+  profileMode:
+    enabled: true
+    title: "YUKIPEDIA"
+    subtitle: "Welcome~  ෆ( ˶'ᵕ'˶)ෆ    "
+    buttons:
+      - name: Learning Notes
+        url: "/Notes"
+      - name: Algorithm
+        url: "/Algorithm"
+      - name: All sorts of stuff
+        url: "/thinking"
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/YUK1PEDIA"
+
+menu:
+  main:
+    - identifier: about me
+      name: About me?
+      url: /about
+      weight: 1
