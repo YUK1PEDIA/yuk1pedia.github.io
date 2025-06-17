@@ -8,25 +8,10 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/thinking/test/</loc>
-    <lastmod>2025-06-16T23:17:11+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/thinking/</loc>
-    <lastmod>2025-06-16T23:17:11+08:00</lastmod>
+    <loc>http://localhost:1313/algorithm/2024-7-12-0-1_knapsack_problem/</loc>
+    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/algorithm/</loc>
-    <lastmod>2025-06-16T22:23:14+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/algorithm/test/</loc>
-    <lastmod>2025-06-16T22:23:14+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notes/hello/</loc>
-    <lastmod>2025-06-16T22:18:26+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notes/</loc>
-    <lastmod>2025-06-16T22:18:26+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/algorithm/2024-7-12-0-1_knapsack_problem/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/algorithm/2024-7-4-dfs_traversal_framework/</loc>
@@ -35,10 +20,13 @@
     <loc>http://localhost:1313/notes/2024-5-23-mysql/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/notes/</loc>
+    <lastmod>2024-05-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/notes/2024-4-6-jdbc/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/2025-5-11-python-craftsman-reading-notes/</loc>
+    <loc>http://localhost:1313/notes/2025-5-11-python-craftsman/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
@@ -48,7 +36,7 @@
   </url><url>
     <loc>http://localhost:1313/notes/2025-2-5-golang/</loc>
   </url><url>
-    <loc>http://localhost:1313/thinking/2024-12-11-lombok-annotation-failure-issue/</loc>
+    <loc>http://localhost:1313/thinking/2024-12-11-lombok_annotation_failure_issue/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/2024-11-21-java_stream/</loc>
   </url><url>
@@ -58,11 +46,11 @@
   </url><url>
     <loc>http://localhost:1313/algorithm/2024-9-13-lambda/</loc>
   </url><url>
-    <loc>http://localhost:1313/algorithm/2024-10-21-binary-tree/</loc>
+    <loc>http://localhost:1313/algorithm/2024-10-21-binary_tree/</loc>
   </url><url>
-    <loc>http://localhost:1313/algorithm/2024-10-22-bit-operation/</loc>
+    <loc>http://localhost:1313/algorithm/2024-10-22-bit_operation/</loc>
   </url><url>
-    <loc>http://localhost:1313/algorithm/2024-11-1-dynamic-programming/</loc>
+    <loc>http://localhost:1313/algorithm/2024-11-1-dynamic_programming/</loc>
   </url><url>
     <loc>http://localhost:1313/algorithm/2024-10-8-stack_and_queue/</loc>
   </url><url>
@@ -70,17 +58,17 @@
   </url><url>
     <loc>http://localhost:1313/algorithm/2024-8-18-leetcode_hot100/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2025-3-10-common-linux-commands/</loc>
+    <loc>http://localhost:1313/notes/2025-3-10-common_linux_commands/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/2024-11-19-mybatis-plus/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2024-11-4-mysql-principles/</loc>
+    <loc>http://localhost:1313/notes/2024-11-4-mysql_principles/</loc>
   </url><url>
     <loc>http://localhost:1313/thinking/2025-3-15-oomall/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/2025-5-3-python&#43;django/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2025-3-22-redis-cluster-scheme/</loc>
+    <loc>http://localhost:1313/notes/2025-3-22-redis_cluster_scheme/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/2024-9-15-redis/</loc>
   </url><url>
@@ -90,7 +78,7 @@
   </url><url>
     <loc>http://localhost:1313/notes/2024-9-24-spring_cache/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2024-10-21-spring-data-&#43;-mongo/</loc>
+    <loc>http://localhost:1313/notes/2024-10-21-spring_data-&#43;-mongo/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/2024-10-3-spring_task/</loc>
   </url><url>
@@ -98,21 +86,23 @@
   </url><url>
     <loc>http://localhost:1313/notes/2024-5-5-spring/</loc>
   </url><url>
-    <loc>http://localhost:1313/algorithm/2024-9-5-stl-container----string-member-function/</loc>
+    <loc>http://localhost:1313/algorithm/2024-9-5-stl_string/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2025-2-27-the-underlying-principle-of-tcp-timeout-retransmission/</loc>
+    <loc>http://localhost:1313/notes/2025-2-27-tcp/</loc>
+  </url><url>
+    <loc>http://localhost:1313/thinking/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/2024-12-19-hash/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2025-4-25-cloud-native/</loc>
+    <loc>http://localhost:1313/notes/2025-4-25-cloud_native/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2025-1-29-what-are-strong-references-soft-referencesweak-referencesand-virtual-references/</loc>
+    <loc>http://localhost:1313/notes/2025-1-29-references/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2025-3-11-cap-vs-base/</loc>
+    <loc>http://localhost:1313/notes/2025-3-11-capvsbase/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2024-11-9-distributed-lock/</loc>
+    <loc>http://localhost:1313/notes/2024-11-9-distributed_lock/</loc>
   </url><url>
     <loc>http://localhost:1313/algorithm/2024-9-20-divide_and_conquermerge_sorting_and_binary_search/</loc>
   </url><url>
@@ -126,11 +116,11 @@
   </url><url>
     <loc>http://localhost:1313/algorithm/2024-10-28-graph_theory/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2025-1-18-in-a-mysql-cluster-is-it-possible-for-the-master-database-to-read-the-old-value-even-if-the-slave-database-has-read-the-latest-value/</loc>
+    <loc>http://localhost:1313/notes/2025-1-18-mysql_cluster/</loc>
   </url><url>
     <loc>http://localhost:1313/thinking/2024-11-6-redis_login/</loc>
   </url><url>
-    <loc>http://localhost:1313/thinking/2025-3-28-review-and-summary/</loc>
+    <loc>http://localhost:1313/thinking/2025-3-28-review_and_summary/</loc>
   </url><url>
     <loc>http://localhost:1313/thinking/2024-7-29-first-year_record/</loc>
   </url><url>
@@ -138,7 +128,7 @@
   </url><url>
     <loc>http://localhost:1313/algorithm/2024-7-27-complete_knapsack_problem_and_multiple_knapsack_problem/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2025-2-11-microservices-architecture-nacos-and-fuses/</loc>
+    <loc>http://localhost:1313/notes/2025-2-11-nacos_and_fuses/</loc>
   </url><url>
     <loc>http://localhost:1313/algorithm/2024-8-19-fast_exponentiation/</loc>
   </url><url>
@@ -146,17 +136,17 @@
   </url><url>
     <loc>http://localhost:1313/algorithm/2024-8-22-maximum_subarray_sum/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2025-1-21-what-are-the-conditions-for-deadlocks-to-occur-how-do-i-diagnose-a-deadlock/</loc>
+    <loc>http://localhost:1313/notes/2025-1-21-deadlock/</loc>
   </url><url>
-    <loc>http://localhost:1313/thinking/2024-11-7-generics-and-functional-programming/</loc>
+    <loc>http://localhost:1313/thinking/2024-11-7-generics_and_functional_programming/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2025-1-15-why-doesnt-a-thread-crash-cause-the-jvm-to-crash-after-it-crashes/</loc>
+    <loc>http://localhost:1313/notes/2025-1-15-jvmcrashes/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/2024-11-6-cache-penetration-cache-avalanche-and-cache-breakdown/</loc>
+    <loc>http://localhost:1313/notes/2024-11-6-cache_penetration/</loc>
   </url><url>
-    <loc>http://localhost:1313/thinking/2025-4-14-autumn-recruitment/</loc>
+    <loc>http://localhost:1313/thinking/2025-4-14-autumn_recruitment/</loc>
   </url><url>
-    <loc>http://localhost:1313/thinking/2024-9-4-implement-automatic-filling-of-common-fields-for-different-tables-through-aop-and-reflection/</loc>
+    <loc>http://localhost:1313/thinking/2024-9-4-aop/</loc>
   </url><url>
     <loc>http://localhost:1313/thinking/2025-4-19-record/</loc>
   </url>

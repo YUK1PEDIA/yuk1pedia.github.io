@@ -116,24 +116,6 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Test
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p></p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-16 23:17:11 +0800 CST'>June 16, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to Test" href="http://localhost:1313/thinking/test/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
     <h2 class="entry-hint-parent">IntelliJ IDEA 中 Lombok 注解失效问题
     </h2>
   </header>
@@ -145,7 +127,7 @@
 </p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to IntelliJ IDEA 中 Lombok 注解失效问题" href="http://localhost:1313/thinking/2024-12-11-lombok-annotation-failure-issue/"></a>
+  <a class="entry-link" aria-label="post link to IntelliJ IDEA 中 Lombok 注解失效问题" href="http://localhost:1313/thinking/2024-12-11-lombok_annotation_failure_issue/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -222,7 +204,7 @@ OS 进程、线程和协程三者的区别？各自有什么优势？ 进程是�
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 复盘总结" href="http://localhost:1313/thinking/2025-3-28-review-and-summary/"></a>
+  <a class="entry-link" aria-label="post link to 复盘总结" href="http://localhost:1313/thinking/2025-3-28-review_and_summary/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -289,7 +271,7 @@ public void set(String key, Object value, Long time, TimeUnit unit) { stringRedi
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 泛型与函数式编程" href="http://localhost:1313/thinking/2024-11-7-generics-and-functional-programming/"></a>
+  <a class="entry-link" aria-label="post link to 泛型与函数式编程" href="http://localhost:1313/thinking/2024-11-7-generics_and_functional_programming/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -321,7 +303,22 @@ Q5：数据库方面呢？说说你是用过哪些数据库？ A：mysql、redis
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 记录暑期和秋招" href="http://localhost:1313/thinking/2025-4-14-autumn-recruitment/"></a>
+  <a class="entry-link" aria-label="post link to 记录暑期和秋招" href="http://localhost:1313/thinking/2025-4-14-autumn_recruitment/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">通过AOP和反射实现不同表的公共字段自动填充
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>项目问题场景 当前端页面涉及到新增或更新数据操作时，在后端数据库中会有更新某些公共字段的需求，比如创建时间、更新时间、创建人等等。
+比如下面的 service 层代码：
+/** * 新增员工 * @param employeeDTO */ public void save(EmployeeDTO employeeDTO) { System.out.println(&#34;当前线程的 id：&#34; &#43; Thread.currentThread().getId()); Employee employee = new Employee(); // 对象属性拷贝，将前者的属性拷贝到后者的属性上，前提是两者的属性名一致 BeanUtils.copyProperties(employeeDTO, employee); // 设置账号状态，默认正常状态 1表示正常，0表示锁定 employee.setStatus(StatusConstant.ENABLE); // 用常量类来设置，不用具体的数字（硬编码） // 设置密码，默认为 123456，同样使用常量类来设置 employee.setPassword(DigestUtils.md5DigestAsHex(PasswordConstant.DEFAULT_PASSWORD.getBytes())); // 设置当前记录的创建时间和修改时间 employee.setCreateTime(LocalDateTime.now()); employee.setUpdateTime(LocalDateTime.now()); // 设置当前记录创建人 id 和修改人 id employee.setCreateUser(BaseContext.getCurrentId()); employee.setUpdateUser(BaseContext.getCurrentId()); employeeMapper.insert(employee); } /** * 编辑员工信息 * @param employeeDTO */ public void update(EmployeeDTO employeeDTO) { Employee employee = new Employee(); BeanUtils.copyProperties(employeeDTO, employee); employee.setUpdateTime(LocalDateTime.now()); employee.setUpdateUser(BaseContext.getCurrentId()); // 获取操作人 id，此处是通过拦截器的 thread 获取对应信息 employeeMapper.update(employee); } 其中更新 updateTime 、setUpdateUser 等操作在重复的调用相同的 set 方法，会增加代码的冗余且不便于后期维护。
+...</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 通过AOP和反射实现不同表的公共字段自动填充" href="http://localhost:1313/thinking/2024-9-4-aop/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

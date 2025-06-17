@@ -6,15 +6,8 @@
     <description>Recent content in Algorithms on YUKIPEDIA&#39;s blog</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 16 Jun 2025 22:23:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/algorithm/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/algorithm/test/</link>
-      <pubDate>Mon, 16 Jun 2025 22:23:14 +0800</pubDate>
-      <guid>http://localhost:1313/algorithm/test/</guid>
-      <description>&lt;p&gt;hello&lt;/p&gt;</description>
-    </item>
     <item>
       <title>01 背包</title>
       <link>http://localhost:1313/algorithm/2024-7-12-0-1_knapsack_problem/</link>
@@ -38,23 +31,23 @@
     </item>
     <item>
       <title>LCR-二叉树</title>
-      <link>http://localhost:1313/algorithm/2024-10-21-binary-tree/</link>
+      <link>http://localhost:1313/algorithm/2024-10-21-binary_tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/algorithm/2024-10-21-binary-tree/</guid>
+      <guid>http://localhost:1313/algorithm/2024-10-21-binary_tree/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>LCR-位运算</title>
-      <link>http://localhost:1313/algorithm/2024-10-22-bit-operation/</link>
+      <link>http://localhost:1313/algorithm/2024-10-22-bit_operation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/algorithm/2024-10-22-bit-operation/</guid>
+      <guid>http://localhost:1313/algorithm/2024-10-22-bit_operation/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>LCR-动态规划</title>
-      <link>http://localhost:1313/algorithm/2024-11-1-dynamic-programming/</link>
+      <link>http://localhost:1313/algorithm/2024-11-1-dynamic_programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/algorithm/2024-11-1-dynamic-programming/</guid>
+      <guid>http://localhost:1313/algorithm/2024-11-1-dynamic_programming/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -80,9 +73,9 @@
     </item>
     <item>
       <title>STL容器——string成员函数</title>
-      <link>http://localhost:1313/algorithm/2024-9-5-stl-container----string-member-function/</link>
+      <link>http://localhost:1313/algorithm/2024-9-5-stl_string/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/algorithm/2024-9-5-stl-container----string-member-function/</guid>
+      <guid>http://localhost:1313/algorithm/2024-9-5-stl_string/</guid>
       <description>记录</description>
     </item>
     <item>

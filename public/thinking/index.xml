@@ -6,20 +6,12 @@
     <description>Recent content in Thinkings on YUKIPEDIA&#39;s blog</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 16 Jun 2025 23:17:11 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/thinking/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>http://localhost:1313/thinking/test/</link>
-      <pubDate>Mon, 16 Jun 2025 23:17:11 +0800</pubDate>
-      <guid>http://localhost:1313/thinking/test/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>IntelliJ IDEA 中 Lombok 注解失效问题</title>
-      <link>http://localhost:1313/thinking/2024-12-11-lombok-annotation-failure-issue/</link>
+      <link>http://localhost:1313/thinking/2024-12-11-lombok_annotation_failure_issue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thinking/2024-12-11-lombok-annotation-failure-issue/</guid>
+      <guid>http://localhost:1313/thinking/2024-12-11-lombok_annotation_failure_issue/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -45,9 +37,9 @@
     </item>
     <item>
       <title>复盘总结</title>
-      <link>http://localhost:1313/thinking/2025-3-28-review-and-summary/</link>
+      <link>http://localhost:1313/thinking/2025-3-28-review_and_summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thinking/2025-3-28-review-and-summary/</guid>
+      <guid>http://localhost:1313/thinking/2025-3-28-review_and_summary/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -66,23 +58,23 @@
     </item>
     <item>
       <title>泛型与函数式编程</title>
-      <link>http://localhost:1313/thinking/2024-11-7-generics-and-functional-programming/</link>
+      <link>http://localhost:1313/thinking/2024-11-7-generics_and_functional_programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thinking/2024-11-7-generics-and-functional-programming/</guid>
+      <guid>http://localhost:1313/thinking/2024-11-7-generics_and_functional_programming/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>记录暑期和秋招</title>
-      <link>http://localhost:1313/thinking/2025-4-14-autumn-recruitment/</link>
+      <link>http://localhost:1313/thinking/2025-4-14-autumn_recruitment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thinking/2025-4-14-autumn-recruitment/</guid>
+      <guid>http://localhost:1313/thinking/2025-4-14-autumn_recruitment/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>通过AOP和反射实现不同表的公共字段自动填充</title>
-      <link>http://localhost:1313/thinking/2024-9-4-implement-automatic-filling-of-common-fields-for-different-tables-through-aop-and-reflection/</link>
+      <link>http://localhost:1313/thinking/2024-9-4-aop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thinking/2024-9-4-implement-automatic-filling-of-common-fields-for-different-tables-through-aop-and-reflection/</guid>
+      <guid>http://localhost:1313/thinking/2024-9-4-aop/</guid>
       <description>记录</description>
     </item>
     <item>

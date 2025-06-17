@@ -116,26 +116,6 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Spring Task
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>什么是 Spring Task Spring Task 是 Spring 框架提供的任务调度工具，可以按照约定的时间自动执行某个代码逻辑，是一个定时任务框架。
-应用场景：
-信用卡每月还款提醒 银行贷款每月还款提醒 火车票售票系统处理未支付订单 ……
-cron 表达式 通过 cron 表达式可以定义任务触发的事件
-构成规则：分为 6 或 7 个域，由空格分割开，每个域代表一个含义
-每个域的含义分别为：秒、分钟、小时、日、月、周、年（可选）。需要注意的是，周和日两者只能填一个，周代表是周几，日代表是这个月的多少号。
-秒 分钟 小时 日 月 周 年 0 0 9 12 10 ? 2024 2024年10月12日上午9点整对应的 cron 表达式为：0 0 9 12 10 ? 2024
-实际上 cron 表达式不需要我们去手写，可以使用在线生成器生成：在线Cron表达式生成器 (qqe2.com)
-Spring Task 使用步骤 导入 maven 坐标 spring-context 启动类添加注解 @EnableScheduling 开启任务调度 package com.sky; import lombok.extern.slf4j.Slf4j; import org.springframework.boot.SpringApplication; import org.springframework.boot.autoconfigure.SpringBootApplication; import org.springframework.cache.annotation.EnableCaching; import org.springframework.scheduling.annotation.EnableScheduling; import org.springframework.transaction.annotation.EnableTransactionManagement; @SpringBootApplication @EnableTransactionManagement //开启注解方式的事务管理 @Slf4j @EnableCaching // 开启缓存注解 @EnableScheduling // 开启任务调度 public class SkyApplication { public static void main(String[] args) { SpringApplication.run(SkyApplication.class, args); log.info(&#34;server started&#34;); } } 自定义定时任务类 package com.sky.task; import lombok.extern.slf4j.Slf4j; import org.springframework.scheduling.annotation.Scheduled; import org.springframework.stereotype.Component; import java.util.Date; /** * 自定义定时任务类 */ @Component @Slf4j public class MyTask { /** * 定时任务，每隔五秒触发一次 */ @Scheduled(cron = &#34;0/5 * * * * ?&#34;) public void executeTask() { log.info(&#34;定时任务开始执行：{}&#34;, new Date()); } } </p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to Spring Task" href="http://localhost:1313/notes/2024-10-3-spring_task/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
     <h2 class="entry-hint-parent">Springboot框架学习笔记
     </h2>
   </header>
@@ -200,7 +180,7 @@ class：bean的类型，即配置的bean的全路径类名
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to TCP超时重传机制的底层原理" href="http://localhost:1313/notes/2025-2-27-the-underlying-principle-of-tcp-timeout-retransmission/"></a>
+  <a class="entry-link" aria-label="post link to TCP超时重传机制的底层原理" href="http://localhost:1313/notes/2025-2-27-tcp/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -246,7 +226,7 @@ Master（主节点）：控制 K8s 节点的机器，也是创建作业任务的
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 云原生" href="http://localhost:1313/notes/2025-4-25-cloud-native/"></a>
+  <a class="entry-link" aria-label="post link to 云原生" href="http://localhost:1313/notes/2025-4-25-cloud_native/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -265,7 +245,7 @@ Master（主节点）：控制 K8s 节点的机器，也是创建作业任务的
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 什么是强引用、软引用、弱引用和虚引用？" href="http://localhost:1313/notes/2025-1-29-what-are-strong-references-soft-referencesweak-referencesand-virtual-references/"></a>
+  <a class="entry-link" aria-label="post link to 什么是强引用、软引用、弱引用和虚引用？" href="http://localhost:1313/notes/2025-1-29-references/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -285,7 +265,7 @@ Master（主节点）：控制 K8s 节点的机器，也是创建作业任务的
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 分布式相关：CAP和BASE" href="http://localhost:1313/notes/2025-3-11-cap-vs-base/"></a>
+  <a class="entry-link" aria-label="post link to 分布式相关：CAP和BASE" href="http://localhost:1313/notes/2025-3-11-capvsbase/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -302,7 +282,7 @@ Master（主节点）：控制 K8s 节点的机器，也是创建作业任务的
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 分布式锁" href="http://localhost:1313/notes/2024-11-9-distributed-lock/"></a>
+  <a class="entry-link" aria-label="post link to 分布式锁" href="http://localhost:1313/notes/2024-11-9-distributed_lock/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -324,7 +304,28 @@ binlog 文件是 MySQL 的 server 层日志，记录了用户对数据库有哪�
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 在MySQL集群中，在从库已经读到了最新值的情况下，主库还有可能读到旧值吗？" href="http://localhost:1313/notes/2025-1-18-in-a-mysql-cluster-is-it-possible-for-the-master-database-to-read-the-old-value-even-if-the-slave-database-has-read-the-latest-value/"></a>
+  <a class="entry-link" aria-label="post link to 在MySQL集群中，在从库已经读到了最新值的情况下，主库还有可能读到旧值吗？" href="http://localhost:1313/notes/2025-1-18-mysql_cluster/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">微服务体系结构、Nacos和熔断器
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>微服务四大设计原则 独立部署 每个微服务都应该能够独立部署、升级和扩展，而不影响其他微服务的正常运行。独立部署使得微服务架构能够灵活应对变化，无论是业务需求变化、性能优化，还是技术更新，都能以最小的代价进行。
+减少系统间的依赖：一个微服务的更新或部署不会影响到其他服务，避免了传统单体应用中常见的“大规模部署”问题。 更高的开发和运维效率：可以根据需求，独立迭代、测试和发布某个微服务。 弹性扩展：某些高负载的微服务可以独立扩展，其他微服务不受影响。 比如，在一个电商系统中，订单服务和支付服务是两个微服务。当订单服务的某个功能需要更新时，可以单独更新订单服务而不影响支付服务的正常运行。
+集中配置 微服务架构中，所有微服务的配置应该集中管理。配置管理工具（如 nacos 或 eureka）可以帮助我们集中管理和动态更新多个微服务的配置，而无需分别修改每个微服务的配置文件。如果不进行集中配置，当我们修改某个微服务的配置文件时，就需要对该微服务进行重新打包部署，非常繁琐。
+统一管理：避免每个微服务有独立配置文件，造成分散管理的复杂性。 快速更新：可以集中更新所有服务的配置，而无需重新部署每个服务。 灵活性和一致性：不同环境（开发、测试、生产）可以共享配置管理，确保配置的一致性。 客户透明 客户（客户端）与微服务之间的交互应该尽量透明，客户端不应关注微服务的内部实现和部署细节。对于微服务来说，不同微服务之间会存在相互调用，而调用的方式并不会通过微服务所在的服务器 ip 去发送请求，而是通过一个查名服务器来集中管理所有服务器 ip 。这样就能使得不同微服务之间直接通过服务名称进行调用。
+简化客户端开发：客户端只需要调用暴露的 API，不关心服务的具体实现或是否有多个服务在背后处理请求。 提升用户体验：即使微服务背后发生了变更，客户端与服务的通信方式保持一致，用户感知不到系统的变动。 更好的扩展性和灵活性：服务可以随着需求变化进行重构或扩展，客户端无需做任何更改。 服务容错 微服务架构应该能够容忍部分服务的故障，避免单个微服务的故障引发整个系统崩溃。通过采取容错策略（如熔断器、重试机制、回退策略等），即使某个服务出现问题，系统的其余部分也能继续正常工作。
+增强系统可靠性：服务容错使得系统能够在部分服务失败的情况下继续正常运行，避免级联故障。 提高用户体验：即使某个微服务出现故障，系统仍能返回合适的错误信息或提供降级服务，不至于让用户体验到大规模的中断。 容忍服务的不可预测性：在分布式系统中，网络延迟、服务崩溃等都是常见问题，容错机制有助于减轻这些问题带来的影响。 Nacos Nacos（全称：Dynamic Naming and Configuration Service）是一个开源的 动态服务发现、配置管理 和 服务管理 平台，主要用于分布式系统中微服务架构的服务治理。简单来说，Nacos 解决了微服务架构中服务注册、发现、配置管理等问题。
+在一个微服务架构中，服务通常是分布式的，服务的实例可能会动态变化（比如启动、关闭或重启），而每个服务也可能会有不同的配置（如数据库连接、API 配置等）。如何管理这些动态变化的服务和配置，就成了一个挑战。Nacos 就是为了解决这些问题而出现的。
+主要功能：
+服务注册与发现 微服务架构中，多个微服务需要相互通信。Nacos 提供了服务注册与发现功能，每个微服务启动时会把自己的信息（如 IP、端口等）注册到 Nacos 上，其他微服务可以通过 Nacos 来查找并调用它。 这样，如果某个微服务的实例发生变化（如重新启动或增加新的实例），Nacos 会自动更新，避免了硬编码和手动维护服务地址。 动态配置管理 Nacos 允许集中管理微服务的配置信息（如数据库连接、日志级别等）。你可以将配置文件统一保存在 Nacos 上，微服务启动时从 Nacos 获取配置信息（如果 Nacos 服务器上没有对应的配置信息，则使用本地的配置文件）。 更重要的是，当配置发生变化时（例如修改数据库连接），Nacos 可以实现 热更新，服务无需重启就可以自动加载新的配置，确保服务配置的动态调整。 服务健康检查 Nacos 会定期检查注册到它的服务的健康状态，如果某个微服务宕机或无法访问，Nacos 会自动剔除掉这个服务的注册信息，避免客户端访问失效的服务。 分布式锁 Nacos 支持分布式锁机制，帮助解决微服务间的并发控制问题。 多种数据源支持 Nacos 支持多种配置数据源，包括 数据库、文件、KV 存储等，方便集成和扩展。 Nacos 的数据存储在哪里？ Nacos 默认使用 嵌入式数据库 来存储数据，但在实际生产环境中，存在大规模的并发请求，Nacos 默认的嵌入式数据库没有高可用性保障，因此往往选择将数据存储到 外部数据库（如 MySQL）中。
+...</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 微服务体系结构、Nacos和熔断器" href="http://localhost:1313/notes/2025-2-11-nacos_and_fuses/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

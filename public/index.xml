@@ -16,27 +16,6 @@
       <description>&lt;h1 id=&#34;施工中&#34;&gt;施工中~&lt;/h1&gt;</description>
     </item>
     <item>
-      <title>Test</title>
-      <link>http://localhost:1313/thinking/test/</link>
-      <pubDate>Mon, 16 Jun 2025 23:17:11 +0800</pubDate>
-      <guid>http://localhost:1313/thinking/test/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/algorithm/test/</link>
-      <pubDate>Mon, 16 Jun 2025 22:23:14 +0800</pubDate>
-      <guid>http://localhost:1313/algorithm/test/</guid>
-      <description>&lt;p&gt;hello&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hello</title>
-      <link>http://localhost:1313/notes/hello/</link>
-      <pubDate>Mon, 16 Jun 2025 22:18:26 +0800</pubDate>
-      <guid>http://localhost:1313/notes/hello/</guid>
-      <description>&lt;p&gt;test&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>01 背包</title>
       <link>http://localhost:1313/algorithm/2024-7-12-0-1_knapsack_problem/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
@@ -66,9 +45,9 @@
     </item>
     <item>
       <title>《Python-craftsman》Reading notes</title>
-      <link>http://localhost:1313/notes/2025-5-11-python-craftsman-reading-notes/</link>
+      <link>http://localhost:1313/notes/2025-5-11-python-craftsman/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-5-11-python-craftsman-reading-notes/</guid>
+      <guid>http://localhost:1313/notes/2025-5-11-python-craftsman/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -94,9 +73,9 @@
     </item>
     <item>
       <title>IntelliJ IDEA 中 Lombok 注解失效问题</title>
-      <link>http://localhost:1313/thinking/2024-12-11-lombok-annotation-failure-issue/</link>
+      <link>http://localhost:1313/thinking/2024-12-11-lombok_annotation_failure_issue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thinking/2024-12-11-lombok-annotation-failure-issue/</guid>
+      <guid>http://localhost:1313/thinking/2024-12-11-lombok_annotation_failure_issue/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -129,23 +108,23 @@
     </item>
     <item>
       <title>LCR-二叉树</title>
-      <link>http://localhost:1313/algorithm/2024-10-21-binary-tree/</link>
+      <link>http://localhost:1313/algorithm/2024-10-21-binary_tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/algorithm/2024-10-21-binary-tree/</guid>
+      <guid>http://localhost:1313/algorithm/2024-10-21-binary_tree/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>LCR-位运算</title>
-      <link>http://localhost:1313/algorithm/2024-10-22-bit-operation/</link>
+      <link>http://localhost:1313/algorithm/2024-10-22-bit_operation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/algorithm/2024-10-22-bit-operation/</guid>
+      <guid>http://localhost:1313/algorithm/2024-10-22-bit_operation/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>LCR-动态规划</title>
-      <link>http://localhost:1313/algorithm/2024-11-1-dynamic-programming/</link>
+      <link>http://localhost:1313/algorithm/2024-11-1-dynamic_programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/algorithm/2024-11-1-dynamic-programming/</guid>
+      <guid>http://localhost:1313/algorithm/2024-11-1-dynamic_programming/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -171,9 +150,9 @@
     </item>
     <item>
       <title>Linux常用命令</title>
-      <link>http://localhost:1313/notes/2025-3-10-common-linux-commands/</link>
+      <link>http://localhost:1313/notes/2025-3-10-common_linux_commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-3-10-common-linux-commands/</guid>
+      <guid>http://localhost:1313/notes/2025-3-10-common_linux_commands/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -185,9 +164,9 @@
     </item>
     <item>
       <title>MySQL原理</title>
-      <link>http://localhost:1313/notes/2024-11-4-mysql-principles/</link>
+      <link>http://localhost:1313/notes/2024-11-4-mysql_principles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-11-4-mysql-principles/</guid>
+      <guid>http://localhost:1313/notes/2024-11-4-mysql_principles/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -206,9 +185,9 @@
     </item>
     <item>
       <title>Redis 集群方案</title>
-      <link>http://localhost:1313/notes/2025-3-22-redis-cluster-scheme/</link>
+      <link>http://localhost:1313/notes/2025-3-22-redis_cluster_scheme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-3-22-redis-cluster-scheme/</guid>
+      <guid>http://localhost:1313/notes/2025-3-22-redis_cluster_scheme/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -241,9 +220,9 @@
     </item>
     <item>
       <title>Spring Data &#43; Mongo</title>
-      <link>http://localhost:1313/notes/2024-10-21-spring-data-&#43;-mongo/</link>
+      <link>http://localhost:1313/notes/2024-10-21-spring_data-&#43;-mongo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-10-21-spring-data-&#43;-mongo/</guid>
+      <guid>http://localhost:1313/notes/2024-10-21-spring_data-&#43;-mongo/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -269,16 +248,16 @@
     </item>
     <item>
       <title>STL容器——string成员函数</title>
-      <link>http://localhost:1313/algorithm/2024-9-5-stl-container----string-member-function/</link>
+      <link>http://localhost:1313/algorithm/2024-9-5-stl_string/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/algorithm/2024-9-5-stl-container----string-member-function/</guid>
+      <guid>http://localhost:1313/algorithm/2024-9-5-stl_string/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>TCP超时重传机制的底层原理</title>
-      <link>http://localhost:1313/notes/2025-2-27-the-underlying-principle-of-tcp-timeout-retransmission/</link>
+      <link>http://localhost:1313/notes/2025-2-27-tcp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-2-27-the-underlying-principle-of-tcp-timeout-retransmission/</guid>
+      <guid>http://localhost:1313/notes/2025-2-27-tcp/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -290,30 +269,30 @@
     </item>
     <item>
       <title>云原生</title>
-      <link>http://localhost:1313/notes/2025-4-25-cloud-native/</link>
+      <link>http://localhost:1313/notes/2025-4-25-cloud_native/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-4-25-cloud-native/</guid>
+      <guid>http://localhost:1313/notes/2025-4-25-cloud_native/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>什么是强引用、软引用、弱引用和虚引用？</title>
-      <link>http://localhost:1313/notes/2025-1-29-what-are-strong-references-soft-referencesweak-referencesand-virtual-references/</link>
+      <link>http://localhost:1313/notes/2025-1-29-references/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-1-29-what-are-strong-references-soft-referencesweak-referencesand-virtual-references/</guid>
+      <guid>http://localhost:1313/notes/2025-1-29-references/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>分布式相关：CAP和BASE</title>
-      <link>http://localhost:1313/notes/2025-3-11-cap-vs-base/</link>
+      <link>http://localhost:1313/notes/2025-3-11-capvsbase/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-3-11-cap-vs-base/</guid>
+      <guid>http://localhost:1313/notes/2025-3-11-capvsbase/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>分布式锁</title>
-      <link>http://localhost:1313/notes/2024-11-9-distributed-lock/</link>
+      <link>http://localhost:1313/notes/2024-11-9-distributed_lock/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-11-9-distributed-lock/</guid>
+      <guid>http://localhost:1313/notes/2024-11-9-distributed_lock/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -360,9 +339,9 @@
     </item>
     <item>
       <title>在MySQL集群中，在从库已经读到了最新值的情况下，主库还有可能读到旧值吗？</title>
-      <link>http://localhost:1313/notes/2025-1-18-in-a-mysql-cluster-is-it-possible-for-the-master-database-to-read-the-old-value-even-if-the-slave-database-has-read-the-latest-value/</link>
+      <link>http://localhost:1313/notes/2025-1-18-mysql_cluster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-1-18-in-a-mysql-cluster-is-it-possible-for-the-master-database-to-read-the-old-value-even-if-the-slave-database-has-read-the-latest-value/</guid>
+      <guid>http://localhost:1313/notes/2025-1-18-mysql_cluster/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -374,9 +353,9 @@
     </item>
     <item>
       <title>复盘总结</title>
-      <link>http://localhost:1313/thinking/2025-3-28-review-and-summary/</link>
+      <link>http://localhost:1313/thinking/2025-3-28-review_and_summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thinking/2025-3-28-review-and-summary/</guid>
+      <guid>http://localhost:1313/thinking/2025-3-28-review_and_summary/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -402,9 +381,9 @@
     </item>
     <item>
       <title>微服务体系结构、Nacos和熔断器</title>
-      <link>http://localhost:1313/notes/2025-2-11-microservices-architecture-nacos-and-fuses/</link>
+      <link>http://localhost:1313/notes/2025-2-11-nacos_and_fuses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-2-11-microservices-architecture-nacos-and-fuses/</guid>
+      <guid>http://localhost:1313/notes/2025-2-11-nacos_and_fuses/</guid>
       <description>记录</description>
     </item>
     <item>
@@ -430,44 +409,44 @@
     </item>
     <item>
       <title>死锁产生的条件？如何诊断死锁？</title>
-      <link>http://localhost:1313/notes/2025-1-21-what-are-the-conditions-for-deadlocks-to-occur-how-do-i-diagnose-a-deadlock/</link>
+      <link>http://localhost:1313/notes/2025-1-21-deadlock/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-1-21-what-are-the-conditions-for-deadlocks-to-occur-how-do-i-diagnose-a-deadlock/</guid>
+      <guid>http://localhost:1313/notes/2025-1-21-deadlock/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>泛型与函数式编程</title>
-      <link>http://localhost:1313/thinking/2024-11-7-generics-and-functional-programming/</link>
+      <link>http://localhost:1313/thinking/2024-11-7-generics_and_functional_programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thinking/2024-11-7-generics-and-functional-programming/</guid>
+      <guid>http://localhost:1313/thinking/2024-11-7-generics_and_functional_programming/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>线程崩溃后为什么不会导致 JVM 崩溃？</title>
-      <link>http://localhost:1313/notes/2025-1-15-why-doesnt-a-thread-crash-cause-the-jvm-to-crash-after-it-crashes/</link>
+      <link>http://localhost:1313/notes/2025-1-15-jvmcrashes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-1-15-why-doesnt-a-thread-crash-cause-the-jvm-to-crash-after-it-crashes/</guid>
+      <guid>http://localhost:1313/notes/2025-1-15-jvmcrashes/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>缓存穿透、缓存雪崩、缓存击穿与缓存污染</title>
-      <link>http://localhost:1313/notes/2024-11-6-cache-penetration-cache-avalanche-and-cache-breakdown/</link>
+      <link>http://localhost:1313/notes/2024-11-6-cache_penetration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-11-6-cache-penetration-cache-avalanche-and-cache-breakdown/</guid>
+      <guid>http://localhost:1313/notes/2024-11-6-cache_penetration/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>记录暑期和秋招</title>
-      <link>http://localhost:1313/thinking/2025-4-14-autumn-recruitment/</link>
+      <link>http://localhost:1313/thinking/2025-4-14-autumn_recruitment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thinking/2025-4-14-autumn-recruitment/</guid>
+      <guid>http://localhost:1313/thinking/2025-4-14-autumn_recruitment/</guid>
       <description>记录</description>
     </item>
     <item>
       <title>通过AOP和反射实现不同表的公共字段自动填充</title>
-      <link>http://localhost:1313/thinking/2024-9-4-implement-automatic-filling-of-common-fields-for-different-tables-through-aop-and-reflection/</link>
+      <link>http://localhost:1313/thinking/2024-9-4-aop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thinking/2024-9-4-implement-automatic-filling-of-common-fields-for-different-tables-through-aop-and-reflection/</guid>
+      <guid>http://localhost:1313/thinking/2024-9-4-aop/</guid>
       <description>记录</description>
     </item>
     <item>
