@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Thinkings on YUKIPEDIA&#39;s blog</title>
+    <link>https://example.org/thinking/</link>
+    <description>Recent content in Thinkings on YUKIPEDIA&#39;s blog</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 27 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/thinking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前后端跨域与 cookie</title>
+      <link>https://example.org/thinking/2025-5-27-cookie/</link>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/thinking/2025-5-27-cookie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>随便写写，感觉更像日记</title>
+      <link>https://example.org/thinking/2025-4-19-record/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/thinking/2025-4-19-record/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>记录暑期和秋招</title>
+      <link>https://example.org/thinking/2025-4-14-autumn_recruitment/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/thinking/2025-4-14-autumn_recruitment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>复盘总结</title>
+      <link>https://example.org/thinking/2025-3-28-review_and_summary/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/thinking/2025-3-28-review_and_summary/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OOMALL 相关扩展思考</title>
+      <link>https://example.org/thinking/2025-3-15-oomall/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/thinking/2025-3-15-oomall/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IntelliJ IDEA 中 Lombok 注解失效问题</title>
+      <link>https://example.org/thinking/2024-12-11-lombok_annotation_failure_issue/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/thinking/2024-12-11-lombok_annotation_failure_issue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>泛型与函数式编程</title>
+      <link>https://example.org/thinking/2024-11-7-generics_and_functional_programming/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/thinking/2024-11-7-generics_and_functional_programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>基于 Redis 的用户短信登陆功能</title>
+      <link>https://example.org/thinking/2024-11-6-redis_login/</link>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/thinking/2024-11-6-redis_login/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>通过 AOP 和反射实现不同表的公共字段自动填充</title>
+      <link>https://example.org/thinking/2024-9-4-aop/</link>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/thinking/2024-9-4-aop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>如何爬取厦大智慧教务签到码</title>
+      <link>https://example.org/thinking/2024-7-30-xmu_checkin/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/thinking/2024-7-30-xmu_checkin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>大一随笔</title>
+      <link>https://example.org/thinking/2024-7-29-first-year_record/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/thinking/2024-7-29-first-year_record/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
