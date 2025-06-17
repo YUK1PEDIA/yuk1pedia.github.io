@@ -10,9 +10,9 @@ params:
     subtitle: "Welcome~  ෆ( ˶'ᵕ'˶)ෆ    "
     buttons:
       - name: Learning Notes
-        url: "/Notes"
+        url: "/notes"
       - name: Algorithm
-        url: "/Algorithm"
+        url: "/algorithm"
       - name: All sorts of stuff
         url: "/thinking"
 
