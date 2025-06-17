@@ -2,241 +2,241 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Notes on YUKIPEDIA&#39;s blog</title>
-    <link>http://localhost:1313/notes/</link>
+    <link>https://example.org/notes/</link>
     <description>Recent content in Notes on YUKIPEDIA&#39;s blog</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>《Python-craftsman》Reading notes</title>
-      <link>http://localhost:1313/notes/2025-5-11-python-craftsman/</link>
+      <link>https://example.org/notes/2025-5-11-python-craftsman/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-5-11-python-craftsman/</guid>
+      <guid>https://example.org/notes/2025-5-11-python-craftsman/</guid>
       <description></description>
     </item>
     <item>
       <title>python &#43; django</title>
-      <link>http://localhost:1313/notes/2025-5-3-python&#43;django/</link>
+      <link>https://example.org/notes/2025-5-3-python&#43;django/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-5-3-python&#43;django/</guid>
+      <guid>https://example.org/notes/2025-5-3-python&#43;django/</guid>
       <description></description>
     </item>
     <item>
       <title>云原生</title>
-      <link>http://localhost:1313/notes/2025-4-25-cloud_native/</link>
+      <link>https://example.org/notes/2025-4-25-cloud_native/</link>
       <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-4-25-cloud_native/</guid>
+      <guid>https://example.org/notes/2025-4-25-cloud_native/</guid>
       <description></description>
     </item>
     <item>
       <title>Redis 集群方案</title>
-      <link>http://localhost:1313/notes/2025-3-22-redis_cluster_scheme/</link>
+      <link>https://example.org/notes/2025-3-22-redis_cluster_scheme/</link>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-3-22-redis_cluster_scheme/</guid>
+      <guid>https://example.org/notes/2025-3-22-redis_cluster_scheme/</guid>
       <description></description>
     </item>
     <item>
       <title>分布式相关：CAP 和 BASE</title>
-      <link>http://localhost:1313/notes/2025-3-11-capvsbase/</link>
+      <link>https://example.org/notes/2025-3-11-capvsbase/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-3-11-capvsbase/</guid>
+      <guid>https://example.org/notes/2025-3-11-capvsbase/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux 常用命令</title>
-      <link>http://localhost:1313/notes/2025-3-10-common_linux_commands/</link>
+      <link>https://example.org/notes/2025-3-10-common_linux_commands/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-3-10-common_linux_commands/</guid>
+      <guid>https://example.org/notes/2025-3-10-common_linux_commands/</guid>
       <description></description>
     </item>
     <item>
       <title>RocketMQ</title>
-      <link>http://localhost:1313/notes/2025-3-2-rocketmq/</link>
+      <link>https://example.org/notes/2025-3-2-rocketmq/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-3-2-rocketmq/</guid>
+      <guid>https://example.org/notes/2025-3-2-rocketmq/</guid>
       <description></description>
     </item>
     <item>
       <title>TCP超时重传机制的底层原理</title>
-      <link>http://localhost:1313/notes/2025-2-27-tcp/</link>
+      <link>https://example.org/notes/2025-2-27-tcp/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-2-27-tcp/</guid>
+      <guid>https://example.org/notes/2025-2-27-tcp/</guid>
       <description></description>
     </item>
     <item>
       <title>RPC vs HTTP</title>
-      <link>http://localhost:1313/notes/2025-2-14-rpc_vs_http/</link>
+      <link>https://example.org/notes/2025-2-14-rpc_vs_http/</link>
       <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-2-14-rpc_vs_http/</guid>
+      <guid>https://example.org/notes/2025-2-14-rpc_vs_http/</guid>
       <description></description>
     </item>
     <item>
       <title>微服务体系结构、Nacos和熔断器</title>
-      <link>http://localhost:1313/notes/2025-2-11-nacos_and_fuses/</link>
+      <link>https://example.org/notes/2025-2-11-nacos_and_fuses/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-2-11-nacos_and_fuses/</guid>
+      <guid>https://example.org/notes/2025-2-11-nacos_and_fuses/</guid>
       <description></description>
     </item>
     <item>
       <title>Go基础学习笔记</title>
-      <link>http://localhost:1313/notes/2025-2-5-golang/</link>
+      <link>https://example.org/notes/2025-2-5-golang/</link>
       <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-2-5-golang/</guid>
+      <guid>https://example.org/notes/2025-2-5-golang/</guid>
       <description></description>
     </item>
     <item>
       <title>什么是强引用、软引用、弱引用和虚引用？</title>
-      <link>http://localhost:1313/notes/2025-1-29-references/</link>
+      <link>https://example.org/notes/2025-1-29-references/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-1-29-references/</guid>
+      <guid>https://example.org/notes/2025-1-29-references/</guid>
       <description></description>
     </item>
     <item>
       <title>死锁产生的条件？如何诊断死锁？</title>
-      <link>http://localhost:1313/notes/2025-1-21-deadlock/</link>
+      <link>https://example.org/notes/2025-1-21-deadlock/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-1-21-deadlock/</guid>
+      <guid>https://example.org/notes/2025-1-21-deadlock/</guid>
       <description></description>
     </item>
     <item>
       <title>在MySQL集群中，在从库已经读到了最新值的情况下，主库还有可能读到旧值吗？</title>
-      <link>http://localhost:1313/notes/2025-1-18-mysql_cluster/</link>
+      <link>https://example.org/notes/2025-1-18-mysql_cluster/</link>
       <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-1-18-mysql_cluster/</guid>
+      <guid>https://example.org/notes/2025-1-18-mysql_cluster/</guid>
       <description></description>
     </item>
     <item>
       <title>线程崩溃后为什么不会导致 JVM 崩溃？</title>
-      <link>http://localhost:1313/notes/2025-1-15-jvmcrashes/</link>
+      <link>https://example.org/notes/2025-1-15-jvmcrashes/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2025-1-15-jvmcrashes/</guid>
+      <guid>https://example.org/notes/2025-1-15-jvmcrashes/</guid>
       <description></description>
     </item>
     <item>
       <title>一致性哈希</title>
-      <link>http://localhost:1313/notes/2024-12-19-hash/</link>
+      <link>https://example.org/notes/2024-12-19-hash/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-12-19-hash/</guid>
+      <guid>https://example.org/notes/2024-12-19-hash/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker 和虚拟机的区别？Docker 是如何实现隔离的？</title>
-      <link>http://localhost:1313/notes/2024-12-17-docker_vs_vm/</link>
+      <link>https://example.org/notes/2024-12-17-docker_vs_vm/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-12-17-docker_vs_vm/</guid>
+      <guid>https://example.org/notes/2024-12-17-docker_vs_vm/</guid>
       <description></description>
     </item>
     <item>
       <title>Java 的反射机制</title>
-      <link>http://localhost:1313/notes/2024-11-27-java_reflection/</link>
+      <link>https://example.org/notes/2024-11-27-java_reflection/</link>
       <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-11-27-java_reflection/</guid>
+      <guid>https://example.org/notes/2024-11-27-java_reflection/</guid>
       <description></description>
     </item>
     <item>
       <title>Java Stream</title>
-      <link>http://localhost:1313/notes/2024-11-21-java_stream/</link>
+      <link>https://example.org/notes/2024-11-21-java_stream/</link>
       <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-11-21-java_stream/</guid>
+      <guid>https://example.org/notes/2024-11-21-java_stream/</guid>
       <description></description>
     </item>
     <item>
       <title>MyBatis-plus</title>
-      <link>http://localhost:1313/notes/2024-11-19-mybatis-plus/</link>
+      <link>https://example.org/notes/2024-11-19-mybatis-plus/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-11-19-mybatis-plus/</guid>
+      <guid>https://example.org/notes/2024-11-19-mybatis-plus/</guid>
       <description></description>
     </item>
     <item>
       <title>分布式锁</title>
-      <link>http://localhost:1313/notes/2024-11-9-distributed_lock/</link>
+      <link>https://example.org/notes/2024-11-9-distributed_lock/</link>
       <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-11-9-distributed_lock/</guid>
+      <guid>https://example.org/notes/2024-11-9-distributed_lock/</guid>
       <description></description>
     </item>
     <item>
       <title>缓存穿透、缓存雪崩、缓存击穿与缓存污染</title>
-      <link>http://localhost:1313/notes/2024-11-6-cache_penetration/</link>
+      <link>https://example.org/notes/2024-11-6-cache_penetration/</link>
       <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-11-6-cache_penetration/</guid>
+      <guid>https://example.org/notes/2024-11-6-cache_penetration/</guid>
       <description></description>
     </item>
     <item>
       <title>MySQL 原理</title>
-      <link>http://localhost:1313/notes/2024-11-4-mysql_principles/</link>
+      <link>https://example.org/notes/2024-11-4-mysql_principles/</link>
       <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-11-4-mysql_principles/</guid>
+      <guid>https://example.org/notes/2024-11-4-mysql_principles/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Data &#43; Mongo</title>
-      <link>http://localhost:1313/notes/2024-10-21-spring_data&#43;mongo/</link>
+      <link>https://example.org/notes/2024-10-21-spring_data&#43;mongo/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-10-21-spring_data&#43;mongo/</guid>
+      <guid>https://example.org/notes/2024-10-21-spring_data&#43;mongo/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/notes/2024-10-8-docker/</link>
+      <link>https://example.org/notes/2024-10-8-docker/</link>
       <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-10-8-docker/</guid>
+      <guid>https://example.org/notes/2024-10-8-docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Task</title>
-      <link>http://localhost:1313/notes/2024-10-3-spring_task/</link>
+      <link>https://example.org/notes/2024-10-3-spring_task/</link>
       <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-10-3-spring_task/</guid>
+      <guid>https://example.org/notes/2024-10-3-spring_task/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Cache</title>
-      <link>http://localhost:1313/notes/2024-9-24-spring_cache/</link>
+      <link>https://example.org/notes/2024-9-24-spring_cache/</link>
       <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-9-24-spring_cache/</guid>
+      <guid>https://example.org/notes/2024-9-24-spring_cache/</guid>
       <description></description>
     </item>
     <item>
       <title>Redis 基础</title>
-      <link>http://localhost:1313/notes/2024-9-15-redis/</link>
+      <link>https://example.org/notes/2024-9-15-redis/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-9-15-redis/</guid>
+      <guid>https://example.org/notes/2024-9-15-redis/</guid>
       <description></description>
     </item>
     <item>
       <title>JavaWeb 学习笔记</title>
-      <link>http://localhost:1313/notes/2024-8-16-javaweb/</link>
+      <link>https://example.org/notes/2024-8-16-javaweb/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-8-16-javaweb/</guid>
+      <guid>https://example.org/notes/2024-8-16-javaweb/</guid>
       <description></description>
     </item>
     <item>
       <title>mysql 常用指令</title>
-      <link>http://localhost:1313/notes/2024-5-23-mysql/</link>
+      <link>https://example.org/notes/2024-5-23-mysql/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-5-23-mysql/</guid>
+      <guid>https://example.org/notes/2024-5-23-mysql/</guid>
       <description></description>
     </item>
     <item>
       <title>Springboot 学习笔记</title>
-      <link>http://localhost:1313/notes/2024-5-13-springboot/</link>
+      <link>https://example.org/notes/2024-5-13-springboot/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-5-13-springboot/</guid>
+      <guid>https://example.org/notes/2024-5-13-springboot/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring 框架学习笔记</title>
-      <link>http://localhost:1313/notes/2024-5-5-spring/</link>
+      <link>https://example.org/notes/2024-5-5-spring/</link>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-5-5-spring/</guid>
+      <guid>https://example.org/notes/2024-5-5-spring/</guid>
       <description></description>
     </item>
     <item>
       <title>JDBC 学习笔记</title>
-      <link>http://localhost:1313/notes/2024-4-6-jdbc/</link>
+      <link>https://example.org/notes/2024-4-6-jdbc/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2024-4-6-jdbc/</guid>
+      <guid>https://example.org/notes/2024-4-6-jdbc/</guid>
       <description></description>
     </item>
   </channel>
