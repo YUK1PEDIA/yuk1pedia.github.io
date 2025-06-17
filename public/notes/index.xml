@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Notes on YUKIPEDIA&#39;s blog</title>
+    <link>http://localhost:1313/notes/</link>
+    <description>Recent content in Notes on YUKIPEDIA&#39;s blog</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 16 Jun 2025 22:18:26 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>http://localhost:1313/notes/hello/</link>
+      <pubDate>Mon, 16 Jun 2025 22:18:26 +0800</pubDate>
+      <guid>http://localhost:1313/notes/hello/</guid>
+      <description>&lt;p&gt;test&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mysql 常用指令</title>
+      <link>http://localhost:1313/notes/2024-5-23-mysql/</link>
+      <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-5-23-mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JDBC 学习笔记</title>
+      <link>http://localhost:1313/notes/2024-4-6-jdbc/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-4-6-jdbc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>《Python-craftsman》Reading notes</title>
+      <link>http://localhost:1313/notes/2025-5-11-python-craftsman-reading-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-5-11-python-craftsman-reading-notes/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/notes/2024-10-8-docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-10-8-docker/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Docker 和虚拟机的区别？Docker 是如何实现隔离的？</title>
+      <link>http://localhost:1313/notes/2024-12-17-docker_vs_vm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-12-17-docker_vs_vm/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Go基础学习笔记</title>
+      <link>http://localhost:1313/notes/2025-2-5-golang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-2-5-golang/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Java Stream</title>
+      <link>http://localhost:1313/notes/2024-11-21-java_stream/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-11-21-java_stream/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>JavaWeb学习笔记</title>
+      <link>http://localhost:1313/notes/2024-8-16-javaweb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-8-16-javaweb/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Java的反射机制</title>
+      <link>http://localhost:1313/notes/2024-11-27-java_reflection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-11-27-java_reflection/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Linux常用命令</title>
+      <link>http://localhost:1313/notes/2025-3-10-common-linux-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-3-10-common-linux-commands/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>MyBatis-plus</title>
+      <link>http://localhost:1313/notes/2024-11-19-mybatis-plus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-11-19-mybatis-plus/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>MySQL原理</title>
+      <link>http://localhost:1313/notes/2024-11-4-mysql-principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-11-4-mysql-principles/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>python &#43; django</title>
+      <link>http://localhost:1313/notes/2025-5-3-python&#43;django/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-5-3-python&#43;django/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Redis 集群方案</title>
+      <link>http://localhost:1313/notes/2025-3-22-redis-cluster-scheme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-3-22-redis-cluster-scheme/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Redis基础</title>
+      <link>http://localhost:1313/notes/2024-9-15-redis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-9-15-redis/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>RocketMQ</title>
+      <link>http://localhost:1313/notes/2025-3-2-rocketmq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-3-2-rocketmq/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>RPC vs HTTP</title>
+      <link>http://localhost:1313/notes/2025-2-14-rpc_vs_http/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-2-14-rpc_vs_http/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Spring Cache</title>
+      <link>http://localhost:1313/notes/2024-9-24-spring_cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-9-24-spring_cache/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Spring Data &#43; Mongo</title>
+      <link>http://localhost:1313/notes/2024-10-21-spring-data-&#43;-mongo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-10-21-spring-data-&#43;-mongo/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Spring Task</title>
+      <link>http://localhost:1313/notes/2024-10-3-spring_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-10-3-spring_task/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Springboot框架学习笔记</title>
+      <link>http://localhost:1313/notes/2024-5-13-springboot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-5-13-springboot/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>Spring框架学习笔记</title>
+      <link>http://localhost:1313/notes/2024-5-5-spring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-5-5-spring/</guid>
+      <description>笔记</description>
+    </item>
+    <item>
+      <title>TCP超时重传机制的底层原理</title>
+      <link>http://localhost:1313/notes/2025-2-27-the-underlying-principle-of-tcp-timeout-retransmission/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-2-27-the-underlying-principle-of-tcp-timeout-retransmission/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>一致性哈希</title>
+      <link>http://localhost:1313/notes/2024-12-19-hash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-12-19-hash/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>云原生</title>
+      <link>http://localhost:1313/notes/2025-4-25-cloud-native/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-4-25-cloud-native/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>什么是强引用、软引用、弱引用和虚引用？</title>
+      <link>http://localhost:1313/notes/2025-1-29-what-are-strong-references-soft-referencesweak-referencesand-virtual-references/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-1-29-what-are-strong-references-soft-referencesweak-referencesand-virtual-references/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>分布式相关：CAP和BASE</title>
+      <link>http://localhost:1313/notes/2025-3-11-cap-vs-base/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-3-11-cap-vs-base/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>分布式锁</title>
+      <link>http://localhost:1313/notes/2024-11-9-distributed-lock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-11-9-distributed-lock/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>在MySQL集群中，在从库已经读到了最新值的情况下，主库还有可能读到旧值吗？</title>
+      <link>http://localhost:1313/notes/2025-1-18-in-a-mysql-cluster-is-it-possible-for-the-master-database-to-read-the-old-value-even-if-the-slave-database-has-read-the-latest-value/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-1-18-in-a-mysql-cluster-is-it-possible-for-the-master-database-to-read-the-old-value-even-if-the-slave-database-has-read-the-latest-value/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>微服务体系结构、Nacos和熔断器</title>
+      <link>http://localhost:1313/notes/2025-2-11-microservices-architecture-nacos-and-fuses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-2-11-microservices-architecture-nacos-and-fuses/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>死锁产生的条件？如何诊断死锁？</title>
+      <link>http://localhost:1313/notes/2025-1-21-what-are-the-conditions-for-deadlocks-to-occur-how-do-i-diagnose-a-deadlock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-1-21-what-are-the-conditions-for-deadlocks-to-occur-how-do-i-diagnose-a-deadlock/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>线程崩溃后为什么不会导致 JVM 崩溃？</title>
+      <link>http://localhost:1313/notes/2025-1-15-why-doesnt-a-thread-crash-cause-the-jvm-to-crash-after-it-crashes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2025-1-15-why-doesnt-a-thread-crash-cause-the-jvm-to-crash-after-it-crashes/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>缓存穿透、缓存雪崩、缓存击穿与缓存污染</title>
+      <link>http://localhost:1313/notes/2024-11-6-cache-penetration-cache-avalanche-and-cache-breakdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2024-11-6-cache-penetration-cache-avalanche-and-cache-breakdown/</guid>
+      <description>记录</description>
+    </item>
+  </channel>
+</rss>

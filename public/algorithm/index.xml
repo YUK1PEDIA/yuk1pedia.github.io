@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Algorithms on YUKIPEDIA&#39;s blog</title>
+    <link>http://localhost:1313/algorithm/</link>
+    <description>Recent content in Algorithms on YUKIPEDIA&#39;s blog</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 16 Jun 2025 22:23:14 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/algorithm/test/</link>
+      <pubDate>Mon, 16 Jun 2025 22:23:14 +0800</pubDate>
+      <guid>http://localhost:1313/algorithm/test/</guid>
+      <description>&lt;p&gt;hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>01 背包</title>
+      <link>http://localhost:1313/algorithm/2024-7-12-0-1_knapsack_problem/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-7-12-0-1_knapsack_problem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>岛屿类问题的通用解法、DFS 遍历框架</title>
+      <link>http://localhost:1313/algorithm/2024-7-4-dfs_traversal_framework/</link>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-7-4-dfs_traversal_framework/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lambda表达式在STL中的应用</title>
+      <link>http://localhost:1313/algorithm/2024-9-13-lambda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-9-13-lambda/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>LCR-二叉树</title>
+      <link>http://localhost:1313/algorithm/2024-10-21-binary-tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-10-21-binary-tree/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>LCR-位运算</title>
+      <link>http://localhost:1313/algorithm/2024-10-22-bit-operation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-10-22-bit-operation/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>LCR-动态规划</title>
+      <link>http://localhost:1313/algorithm/2024-11-1-dynamic-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-11-1-dynamic-programming/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>LCR-栈和队列</title>
+      <link>http://localhost:1313/algorithm/2024-10-8-stack_and_queue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-10-8-stack_and_queue/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>leetcode</title>
+      <link>http://localhost:1313/algorithm/2024-9-18-leetcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-9-18-leetcode/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>leetcode hot100</title>
+      <link>http://localhost:1313/algorithm/2024-8-18-leetcode_hot100/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-8-18-leetcode_hot100/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>STL容器——string成员函数</title>
+      <link>http://localhost:1313/algorithm/2024-9-5-stl-container----string-member-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-9-5-stl-container----string-member-function/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>分治——归并排序与二分查找</title>
+      <link>http://localhost:1313/algorithm/2024-9-20-divide_and_conquermerge_sorting_and_binary_search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-9-20-divide_and_conquermerge_sorting_and_binary_search/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>前缀和与差分数组</title>
+      <link>http://localhost:1313/algorithm/2024-9-13-prefix_sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-9-13-prefix_sum/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>动态规划-买卖股票问题</title>
+      <link>http://localhost:1313/algorithm/2024-8-9-stock_trading_problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-8-9-stock_trading_problem/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>单调栈</title>
+      <link>http://localhost:1313/algorithm/2024-8-9-monotonic_stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-8-9-monotonic_stack/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>图论</title>
+      <link>http://localhost:1313/algorithm/2024-10-28-graph_theory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-10-28-graph_theory/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>完全背包与多重背包</title>
+      <link>http://localhost:1313/algorithm/2024-7-27-complete_knapsack_problem_and_multiple_knapsack_problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-7-27-complete_knapsack_problem_and_multiple_knapsack_problem/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>快速幂</title>
+      <link>http://localhost:1313/algorithm/2024-8-19-fast_exponentiation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-8-19-fast_exponentiation/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>数位dp通用模板</title>
+      <link>http://localhost:1313/algorithm/2024-9-20-shuwei_dp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-9-20-shuwei_dp/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>最大子数组和</title>
+      <link>http://localhost:1313/algorithm/2024-8-22-maximum_subarray_sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/algorithm/2024-8-22-maximum_subarray_sum/</guid>
+      <description>记录</description>
+    </item>
+  </channel>
+</rss>
