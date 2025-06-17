@@ -1,4 +1,6 @@
 baseURL: 'https://yuk1pedia.github.io/'
+relativeURLs: true  # 强制使用相对路径
+canonifyURLs: true  # 转换绝对路径为相对路径
 languageCode: zh-cn
 title: YUKIPEDIA's blog
 theme: ["PaperMod"]
