@@ -116,162 +116,26 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">IntelliJ IDEA 中 Lombok 注解失效问题
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>问题 尝试在 IDEA 中使用 Lombok 注解，但是在程序编译时出现找不到 get&amp;set 方法、找不到 builder 方法等报错，但在对应的类中都已经加上了 @Data 和 @Builder 注解，但是编译器找不到注解。
-解决方法 确保安装了 Lombok 插件，（Settings → Plugins 安装 lombok）
-并且启用了注解处理器（Settings → Build, Execution, Deployment → Compiler → Annotation Processors）
-做完上述两步后即可通过编译
-</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to IntelliJ IDEA 中 Lombok 注解失效问题" href="http://localhost:1313/thinking/2024-12-11-lombok_annotation_failure_issue/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">OOMALL相关扩展思考
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>
-1.电商往往会涉及到资金的流转，在后端方面如何保证资金在电商平台上的安全？ 如何确保用户账户、支付信息不被篡改或盗用？
-可以采用双重身份验证，引入短信验证码、邮箱验证码进行二次验证
-用户支付密码需要避免明文存储，可以采用 PBKDF2 或者 Argon2 哈希存储
-防止暴力破解，限制支付密码输入错误次数，超过阈值后进行账户锁定或额外验证
-补充：
-PBKDF2（Password-Based Key Derivation Function 2）会对密码进行多次加密，让破解变得非常困难
-原理：用户输入密码，例如 mypassword123 ，系统给它加点“盐”（随机数据），比如 randomsalt ，再用 PBKDF2 算法反复进行哈希运算，得到最终的哈希值，存入数据库 Argon2 是一种更先进的哈希算法，相比 PBKDF2，它不仅反复 “加密” ，还让计算过程 更吃内存，这样黑客即使使用高性能 GPU 或专门的破解硬件，也很难暴力破解
-如何保证用户支付、退款等资金操作不会因为系统异常导致资金错账或丢失？
-采用分布式事务保障
-TCC 事务机制：Try 预留资金（冻结余额）、Confirm 确认扣款（实际转账）、Cancel 取消预留（释放资金） SAGA 事务模式：长事务，如跨行转账，采用补偿机制回滚失败操作 消息事务 &#43; 幂等处理：采用 RocketMQ 的半消息机制实现消息事务，支付成功后发送事务消息到 MQ，再异步更新订单状态。注意订单状态更新必须是 幂等的，防止消息重复消费 对账机制
-定期对账（商户、银行、用户对账），发现差异立即报警 记录交易日志，提高不可篡改性 补充：
-TCC（Try-Confirm-Cancel）是一种 两阶段提交（2PC） 的思想（TCC 可以保证事务操作的严格执行，不会出现一部分成功，一部分失败的情况），核心思路是：“先预留资源，再真正提交，失败后回滚” 。举个例子，你去餐厅订了一桌火锅，整个流程是这样的：
-Try（尝试扣留资源）：你打电话订座，餐厅告诉你“位置已预留”，但还没真正让你入座
-Confirm（确认执行）：你准时到达餐厅，餐厅正式给你安排座位，你可以开始吃火锅了
-Cancel（取消执行）：如果你临时有事不去了，餐厅会把你的座位释放出来，别人可以预订
-SAGA（补偿事务）模式，是一种长事务管理模式，适用于 异步、非实时的业务。核心思路是：“如果某个步骤失败，就执行补偿操作撤销已完成的步骤” 。
-假设你在电商平台下单：
-用户下单，订单服务创建订单
-扣减库存
-扣款支付
-通知商家发货
-如果第 4 步失败了（比如商家没货），SAGA 需要执行补偿操作：
-...</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to OOMALL相关扩展思考" href="http://localhost:1313/thinking/2025-3-15-oomall/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
     <h2 class="entry-hint-parent">前后端跨域与 cookie
     </h2>
   </header>
   <div class="entry-content">
-    <p>前言 实习过程中，在某个晚上搭建 apiserver 后端和 webfe 前端时，启动前后端项目后在浏览器访问服务器的域名，出现了返回的状态码为 200，但是前端却拿不到后端数据，即跨域问题。寻求 mt 的帮助后解决了这个问题，收获不小，记录一下
-前后端跨域问题 解决跨域？CORS？ cookie 与父子域名</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
+  <footer class="entry-footer"><span title='2025-05-27 00:00:00 +0000 UTC'>May 27, 2025</span></footer>
   <a class="entry-link" aria-label="post link to 前后端跨域与 cookie" href="http://localhost:1313/thinking/2025-5-27-cookie/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">基于Redis的用户短信登陆功能
+    <h2 class="entry-hint-parent">随便写写，感觉更像日记
     </h2>
   </header>
   <div class="entry-content">
-    <p>1.发送验证码功能实现 前端会给后端传入 String 和一个 HttpSession ，然后对应的 controller 调用 service 层的 sendCode 方法：
-/** * 发送手机验证码 */ @PostMapping(&#34;code&#34;) public Result sendCode(@RequestParam(&#34;phone&#34;) String phone, HttpSession session) { return userService.sendCode(phone, session); } 通过 RandomUtil 实现随机生成验证码并保存到 redis 中。此处的返回验证码仅仅是模拟返回过程，并不是真实返回。
-/** * 发送验证码 * @param phone * @param session * @return */ @Override public Result sendCode(String phone, HttpSession session) { // 1.校验手机号 if (RegexUtils.isPhoneInvalid(phone)) { // 2.如果不符合 return Result.fail(&#34;手机号格式错误！&#34;); } // 3.符合，生成验证码 String code = RandomUtil.randomNumbers(6); // 4.保存验证码到 redis stringRedisTemplate.opsForValue().set(LOGIN_CODE_KEY &#43; phone, code, LOGIN_CODE_TTL, TimeUnit.MINUTES); // 5.返回验证码 log.debug(&#34;发送短信验证码成功，验证码：{}&#34;, code); return Result.ok(); } 2.登录功能实现 前端会给后端传入 LoginFormDTO 和一个 HttpSession ，然后对应的 controller 调用 service 层的 login 方法：
-...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 基于Redis的用户短信登陆功能" href="http://localhost:1313/thinking/2024-11-6-redis_login/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">复盘总结
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>[TOC]
-OS 进程、线程和协程三者的区别？各自有什么优势？ 进程是操作系统资源调度的基本单位，拥有独立的内存空间和系统资源。每个进程有独立的内存空间，互不干扰，创建和切换进程的开销比较大，进程间通信较复杂 线程是进程内的执行单元，共享进程的内存和资源。创建和切换线程的开销较小，但同步比较复杂 协程是用户态的轻量级线程，由程序员控制调度，无需操作系统介入。创建和切换协程的开销非常小，适合高并发的场景 线程同步方式有哪些？ 互斥锁、读写锁、信号量、自旋锁、临界区 协程调度的底层？ 协程调度主要由用户态控制，底层机制依赖于 协作式多任务 ，即协程主动让出执行权，而不是被强制抢占 协程调度基于以下两个核心机制： 保存和恢复上下文：切换时保存程序计数器、寄存器、栈指针等信息，并恢复下一个协程的上下文 事件循环：协程调度器通常基于事件循环实现，事件循环负责管理协程的状态和调度（FIFO、优先级调度、时间片轮转等） 当前内存不足 500mb，此时申请 500mb 会发生什么？ 可能直接抛出异常，返回内存分配失败 如果系统启用了 交换空间 机制，操作系统会将部分不常用的内存页换出到交换空间，然后尝试分配 500mb 内存 交换空间：当内存不足时，Linux 把某些页的内容转移到硬盘上的一块空间，以释放内存。硬盘上的那块空间叫做交换空间 内存严重不足时，Linux 内核中的 OOM Killer 会终止占用内存最多的进程，然后尝试分配 500mb 内存 Linux 是如何管理内存的？ 虚拟内存机制 主要采用的是 页式内存管理 虚拟地址空间分为 内核空间 和 用户空间 两部分，每个进程有自己的用户空间，包含代码段、数据段、堆、栈等；内核空间被所有进程共享 内存回收机制 页面缓存、交换空间、内存压缩、OOM Killer epoll 介绍一下？ IO 多路复用：用一个线程（或进程）同时管理多个 I/O 操作，而不是为每个 I/O 操作单独开一个线程 将已连接的 Socket 都放到一个 文件描述符集合 中，epoll 使用 红黑树 来跟踪进程所有待检测的文件描述字，select/poll 每次操作都传入整个 Socket 集合给内核，而 epoll 只需要传入一个待检测的 Socket，减少了内核和用户空间大量的数据拷贝 epoll 红黑树中存储键值对（文件描述符以及对应的事件） key：文件描述符（fd） value：监听的事件类型 事件驱动 机制，内核维护了一个链表记录就绪事件，当某个 Socket 有事件发生，通过 回调函数 内核会将其加入到就绪事件列表 就绪链表存放的也是 已就绪的 文件描述符 和 监听的事件类型 epoll 支持两种事件触发模式：边缘触发 和 水平触发 边缘触发：当被监控的 Socket 上有可读事件发生时，服务器端只会从 epoll_wait 中 苏醒一次 ，即使进程没有调用 read 函数从内核读取数据，也依然只苏醒一次，因此我们程序要保证一次性将内核缓冲区的数据读取完 水平触发：当被监控的 Socket 上有可读事件发生时，服务器端不断地从 epoll_wait 中苏醒，直到内核缓冲区数据被 read 函数读完才结束 举个例子，你的快递被放到了一个快递箱里，如果快递箱只会通过短信通知你一次，即使你一直没有去取，它也不会再发送第二条短信提醒你，这个方式就是 边缘触发；如果快递箱发现你的快递没有被取出，它就会不停地发短信通知你，直到你取出了快递，它才消停，这个就是水平触发的方式 计网 TCP 和 UDP 的区别？
-...</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 复盘总结" href="http://localhost:1313/thinking/2025-3-28-review_and_summary/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">大一随笔
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>前言 我高考录取到的专业并不是计算机而是建筑，因此我的整个大一是在思明校区度过的。可能是从小和电脑打交道比较早（？），也可能是看到将来的就业前（钱）景，进入厦大后萌生出转专业到计算机的想法。我开始写这篇博客的时间是 2024年 7 月 25 日的 23:08，因此本篇记录的快乐大一时光大多基于我对手机上万张照片的回忆~~~
-（全都是流水账
-第二次抵达厦门 其实我在初三毕业后就来过厦门，也参观过厦大，所以 2022 年那会刚到厦门给我一种熟悉又陌生的感觉
-个人（）二维码（bushi
-从武汉天河机场出发啦~
-那会疫情还没有完全开放，仍然在进行（）检测，在2022 年 9 月 5 日抵达厦门后（9 月 6 日报道），由于忘记了提前进行（）检测，只能在校外酒店额外多待三天orz。。。还好那会建院的辅导员赵妈妈迅速给出了线上报道的解决方案
-于是乎我就先在校外闲逛了三天，之后才和舍友在宿舍汇合
-到处乱逛ing
-进校和舍友汇合~
-在厦大的第一顿饭，好像那会正好碰上中秋，食堂有免费的月饼
-二次到访芙蓉隧道~
-我超，（）！
-军训~
-军训结束后就开始选课了，拿到了大学的第一张课表，此时我才发现建筑需要美术功底呃啊
-喜提新车后沿着环岛路骑了一段，之后就开始上课，步入正常的大学生活啦
-在思明校区建院的一年 大一上 开始上课之后了解到了建筑类有自己的个人工位，方便完成设计课和其他课程的作业，也方便和同学聊天吹水打游戏。然后我在整理工位时找到了某个不可名状之物并将其粘贴到了宿舍窗户上
-完成设计课的第一次作业orz
-hhhhhhhh画图闲下来叠的龙猫
-之后有次新生研讨课有问之后就读专业的意向，那会我好像已经确定了要转专业了
-学院组织的心理素拓破冰活动，公众号还给了一张特写hhhh
-没有任何画画功底的速写与素描（
-设计课也开始做模型了，图中的那个黄色胶水挺难闻的。。。
-...</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 大一随笔" href="http://localhost:1313/thinking/2024-7-29-first-year_record/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">如何爬取厦大智慧教务签到码
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>前言 本文是作者在学习计算机网络八股文的过程中做的小实践，仅供学习使用，请勿使用此方法逃避考勤。
-操作过程 爬取签到码前需要准备什么？ 一台可以联网并且安装有微信的电脑 一个可以抓取网络流量包的软件（我使用的是Proxyman） 抓包过程 使用电脑登陆微信，搜索厦大智慧教务小程序并打开
-点击课程签到，进入课程签到界面
-然后电脑打开 Proxyman，并打开监听
-之后回到小程序，点击“启动签到”，小程序会进入输入签到码并获取定位的界面，此时回到 Proxyman，找到 getXsQdInfo 这个包，打开 Response 的 Body ，找到 &#34;klHm&#34; 这个 key ，它对应的 value 就是签到码
-</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 如何爬取厦大智慧教务签到码" href="http://localhost:1313/thinking/2024-7-30-xmu_checkin/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">泛型与函数式编程
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>泛型与函数式编程 函数式编程：在Java中，函数式编程是一种编程范式，它把计算视为数学上的函数求值，并且避免了状态和可变数据。这意味着在函数式编程中，函数是“一等公民”，它们可以作为参数传递给其他函数，也可以作为结果从函数中返回。此外，函数式编程鼓励使用不可变对象来减少副作用，从而提高代码的可读性和可维护性。 泛型：泛型是Java语言的一个重要特性，它允许你在定义类、接口和方法时使用类型参数。这样做的好处是可以重用相同的代码来处理不同的数据类型，同时还能获得编译时的类型安全检查，避免运行时出现类型错误。简单来说，泛型就是一种参数化类型的机制，即所操作的数据类型可以被指定为一个参数，这种参数类型可以在使用时确定。 应用 我们以下面的需求为例子：
-方法 1： 方法 1 需要将任意 java 对象序列化为 json 并存储在 string 类型的 key 中，还需要设置 TTL 过期时间。显然这个方法并不需要返回值，我们可以复用 StringRedisTemplate 的 set 方法，并结合 JSONUtil 工具包的 toJsonStr 方法实现该功能。
-由于需要存储在 string 类型的 key 中，所以需要传入一个 String 类型的变量 key ；由于是任意 java 对象，因此 value 定义成 Object 类型；对于设置 TTL 过期时间，我们可以仿照 Spring 的风格，传入一个 Long 类型的 time 和一个 TimeUnit（时间单位）。
-public void set(String key, Object value, Long time, TimeUnit unit) { stringRedisTemplate.opsForValue().set(key, JSONUtil.toJsonStr(value), time, unit); } 方法 2： 在方法 1 的基础上需要添加一个逻辑过期时间，这里逻辑过期时间的作用是防止 redis 出现缓存击穿的情况，缓存击穿、穿透、雪崩的介绍在：https://yuk1pedia.github.io/2024/11/Cache-penetration,-cache-avalanche,-and-cache-breakdown/
-...</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 泛型与函数式编程" href="http://localhost:1313/thinking/2024-11-7-generics_and_functional_programming/"></a>
+  <footer class="entry-footer"><span title='2025-04-19 00:00:00 +0000 UTC'>April 19, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to 随便写写，感觉更像日记" href="http://localhost:1313/thinking/2025-4-19-record/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -280,45 +144,94 @@ public void set(String key, Object value, Long time, TimeUnit unit) { stringRedi
     </h2>
   </header>
   <div class="entry-content">
-    <p>前言 这篇博客用来记录本人暑期实习 &#43; 秋招全过程，主要应该是面经吧，可能会有些其他的碎碎念。这篇博客的内容我在牛客也会同步更新：https://www.nowcoder.com/users/209838151
-2024/11/23 写完点评项目，将点评 &#43; 外卖缝合到一起，总结学过的技术栈与各种经历，完成第一版简历
-2024/12/01 开始投递简历，总的投递公司数量不多，有：腾讯、字节、快手、百度、美团、小红书、小米
-后续：字节美团小米泡池子，快手投一次挂一次（听说是没有实习经历不给过简历，也可能是没到实习招聘时间），小红书和百度简历挂，只有腾讯给面试
-2024/12/12 2024/12/1 投递后做了测评，一直到 10 号状态一直处于测评后等通知，2024/12/11 在官网更新了下简历，12号状态变成初试
-2024/12/13 官网显示流程结束
-2024/12/14 腾讯下午五点打电话约面，时间定的 2024/12/20 上午 11 点。面试部门是天美后台开发，13 号流程结束面试官说是没来得及更新官网状态，不过天美主 cpp &#43; golang ，不知道为啥捞我 Java 选手面试
-2024/12/20 第一次面试，面经如下：
-全程一个半小时，前一个小时在做题，题目是翻转字符串和两个栈实现队列 翻转字符串就是输入：hello world,god bless you，需要输出：world hello,you bless god 两道题都不难，但第一次面试紧张感实在难顶，也不熟悉acm模式，输入输出处理的不太好，花了好久才做出来 后面半小时也没问什么，感觉是技术栈不match
-我是java技术栈，面试官看我写题用cpp的stl比较熟练，上来先问： Q1：我看你stl用的挺熟练的，介绍下c&#43;&#43;11的新特性？ A：这个真不会，我对cpp的使用仅限于拿stl来做题
-之后估计面试官着急吃饭，随便问了点 Q2：网络编程了解吗？讲讲java里套接字的api A：上次用有点太久远了，只讲了如何使用socket类绑定主机端口，其他讲的磕磕绊绊的
-Q3：多态用过吗？你是java技术栈的话讲讲java的多态 A：吟唱八股
-Q4：Linux有用过吗？使用过哪些命令？ A：有使用docker在服务器上部署项目的经验，主要用的还是文件检索、修改、移动等基础的命令
-Q5：数据库方面呢？说说你是用过哪些数据库？ A：mysql、redis、mongo，吟唱一小段mysql和redis的八股
-最后反问：第一次面试表现？学习建议？ 面试官回答：知识广度还行，建议的话就是熟悉acm模式，写题需要有准确的输入输出，考虑边界情况
-总结 面试官也问了一句了不了解go，我也是仅限于了解，没有实际用过。之前有看过天美的其他面经，感觉部门主要还是使用cpp和golang，虽然问的问题不多，但主要问的还是cpp相关的问题，cpp选手对Linux的掌握程度应该远高于我这个半吊子java选手 腾讯天美的总体面试体验很好，面试官很温柔，完全不push，看我写算法紧张会引导我思考，算法确实刷了不少，但面试做题和平时刷力扣完全是两个场景，很难不紧张。回池子等捞了，天美这类主cpp的部门就别捞我了
-面完之后下午挂，应该是技术栈不 match &#43; 做题比较慢
-补充：
-两个栈实现队列力扣有原题，翻转字符串暂时没找到，面试后自己重新做了一遍，补一下题解，面试的时候面试官说可以不考虑输入输出，硬编码进main函数中就行。 整体思路是先按照逗号将原字符串分割成子字符串，对每个子字符串按照空格分割成一个个单词，对单词顺序进行翻转
-#include&lt;bits/stdc&#43;&#43;.h&gt; using namespace std; string solve(string input) { // 翻转子串 auto reverseSubStr = [&amp;](string str) -&gt; string { vector&lt;string&gt; words; string word = &#34;&#34;; for (char c : str) { if (c == &#39; &#39;) { if (!word.empty()) { words.push_back(word); word = &#34;&#34;; } } else { word &#43;= c; } } if (!word.empty()) { words.push_back(word); } string res = &#34;&#34;; for (int i = words.size() - 1; i &gt;= 0; --i) { res &#43;= words[i]; if (i != 0) { res &#43;= &#34; &#34;; } } return res; }; vector&lt;string&gt; substrs; string substr = &#34;&#34;; for (char c : input) { if (c == &#39;,&#39;) { substrs.push_back(substr); substr = &#34;&#34;; } else { substr &#43;= c; } } if (!substr.empty()) { substrs.push_back(substr); } for (auto&amp; substr : substrs) { substr = reverseSubStr(substr); } string res = &#34;&#34;; for (int i = 0; i &lt; substrs.size(); &#43;&#43;i) { res &#43;= substrs[i]; if (i != substrs.size() - 1) { res &#43;= &#34;,&#34;; } } return res; } int main() { string in = &#34;hello world,god bless you&#34;; string out = solve(in); cout &lt;&lt; out &lt;&lt; endl; return 0; } 2024/12/25 腾讯二进宫，部门是微信支付前端开发，早上十点发短信约 26 号晚上七点面试，但那时候有课程汇报，期末也很忙，和面试官联系把面试时间推到了考试周（2025/1/6）
-...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
+  <footer class="entry-footer"><span title='2025-04-14 00:00:00 +0000 UTC'>April 14, 2025</span></footer>
   <a class="entry-link" aria-label="post link to 记录暑期和秋招" href="http://localhost:1313/thinking/2025-4-14-autumn_recruitment/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">通过AOP和反射实现不同表的公共字段自动填充
+    <h2 class="entry-hint-parent">复盘总结
     </h2>
   </header>
   <div class="entry-content">
-    <p>项目问题场景 当前端页面涉及到新增或更新数据操作时，在后端数据库中会有更新某些公共字段的需求，比如创建时间、更新时间、创建人等等。
-比如下面的 service 层代码：
-/** * 新增员工 * @param employeeDTO */ public void save(EmployeeDTO employeeDTO) { System.out.println(&#34;当前线程的 id：&#34; &#43; Thread.currentThread().getId()); Employee employee = new Employee(); // 对象属性拷贝，将前者的属性拷贝到后者的属性上，前提是两者的属性名一致 BeanUtils.copyProperties(employeeDTO, employee); // 设置账号状态，默认正常状态 1表示正常，0表示锁定 employee.setStatus(StatusConstant.ENABLE); // 用常量类来设置，不用具体的数字（硬编码） // 设置密码，默认为 123456，同样使用常量类来设置 employee.setPassword(DigestUtils.md5DigestAsHex(PasswordConstant.DEFAULT_PASSWORD.getBytes())); // 设置当前记录的创建时间和修改时间 employee.setCreateTime(LocalDateTime.now()); employee.setUpdateTime(LocalDateTime.now()); // 设置当前记录创建人 id 和修改人 id employee.setCreateUser(BaseContext.getCurrentId()); employee.setUpdateUser(BaseContext.getCurrentId()); employeeMapper.insert(employee); } /** * 编辑员工信息 * @param employeeDTO */ public void update(EmployeeDTO employeeDTO) { Employee employee = new Employee(); BeanUtils.copyProperties(employeeDTO, employee); employee.setUpdateTime(LocalDateTime.now()); employee.setUpdateUser(BaseContext.getCurrentId()); // 获取操作人 id，此处是通过拦截器的 thread 获取对应信息 employeeMapper.update(employee); } 其中更新 updateTime 、setUpdateUser 等操作在重复的调用相同的 set 方法，会增加代码的冗余且不便于后期维护。
-...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 通过AOP和反射实现不同表的公共字段自动填充" href="http://localhost:1313/thinking/2024-9-4-aop/"></a>
+  <footer class="entry-footer"><span title='2025-03-28 00:00:00 +0000 UTC'>March 28, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to 复盘总结" href="http://localhost:1313/thinking/2025-3-28-review_and_summary/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">OOMALL 相关扩展思考
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2025-03-15 00:00:00 +0000 UTC'>March 15, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to OOMALL 相关扩展思考" href="http://localhost:1313/thinking/2025-3-15-oomall/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">IntelliJ IDEA 中 Lombok 注解失效问题
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2024-12-11 00:00:00 +0000 UTC'>December 11, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to IntelliJ IDEA 中 Lombok 注解失效问题" href="http://localhost:1313/thinking/2024-12-11-lombok_annotation_failure_issue/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">泛型与函数式编程
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2024-11-07 00:00:00 +0000 UTC'>November 7, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 泛型与函数式编程" href="http://localhost:1313/thinking/2024-11-7-generics_and_functional_programming/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">基于 Redis 的用户短信登陆功能
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2024-11-06 00:00:00 +0000 UTC'>November 6, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 基于 Redis 的用户短信登陆功能" href="http://localhost:1313/thinking/2024-11-6-redis_login/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">通过 AOP 和反射实现不同表的公共字段自动填充
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2024-09-04 00:00:00 +0000 UTC'>September 4, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 通过 AOP 和反射实现不同表的公共字段自动填充" href="http://localhost:1313/thinking/2024-9-4-aop/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">如何爬取厦大智慧教务签到码
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2024-07-30 00:00:00 +0000 UTC'>July 30, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 如何爬取厦大智慧教务签到码" href="http://localhost:1313/thinking/2024-7-30-xmu_checkin/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -116,57 +116,38 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">死锁产生的条件？如何诊断死锁？
+    <h2 class="entry-hint-parent">Springboot 学习笔记
     </h2>
   </header>
   <div class="entry-content">
-    <p>死锁产生的条件 在操作系统中，死锁只有同时满足以下四个条件才会发生：
-互斥条件 持有并等待条件 不可剥夺条件 环路等待条件 在 java 程序中，由于 java 自带线程，因此自己编写的两条线程也可能出现死锁的情况。
-具体而言，java 程序里死锁产生的条件是两条线程分别持有两个锁，并且都在尝试获取对方所持有的锁，这样就造成了死锁。
-以下面的程序为例：
-public class Main { public static void main(String[] args) { Object A = new Object(); Object B = new Object(); Thread t1 = new Thread(() -&gt; { synchronized (A) { System.out.println(&#34;lock A&#34;); try { sleep(1000); } catch (InterruptedException e) { throw new RuntimeException(e); } synchronized (B) { System.out.println(&#34;lock B&#34;); System.out.println(&#34;操作...&#34;); } } }, &#34;t1&#34;); Thread t2 = new Thread(() -&gt; { synchronized (B) { System.out.println(&#34;lock B&#34;); try { sleep(500); } catch (InterruptedException e) { throw new RuntimeException(e); } synchronized (A) { System.out.println(&#34;lock A&#34;); System.out.println(&#34;操作...&#34;); } } }, &#34;t2&#34;); t1.start(); t2.start(); } } 线程 t1 和线程 t2 分别获取了锁 A 和锁 B ，并且都在尝试获取对方的锁，因此就出现了死锁：
-...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 死锁产生的条件？如何诊断死锁？" href="http://localhost:1313/notes/2025-1-21-deadlock/"></a>
+  <footer class="entry-footer"><span title='2024-05-13 00:00:00 +0000 UTC'>May 13, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Springboot 学习笔记" href="http://localhost:1313/notes/2024-5-13-springboot/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">线程崩溃后为什么不会导致 JVM 崩溃？
+    <h2 class="entry-hint-parent">Spring 框架学习笔记
     </h2>
   </header>
   <div class="entry-content">
-    <p>要弄明白这个问题，我们从以下几点进行分析：
-线程崩溃后，进程一定会崩溃吗？ 进程是如何崩溃的？——信号机制简介 为什么在 JVM 中线程崩溃不会导致 JVM 进程崩溃？ 线程崩溃后，进程一定会崩溃吗？ 一般来说如果线程是因为非法访问内存引起的崩溃，那么进程肯定会崩溃。这主要是因为在进程中，各个线程的地址空间是共享的，既然是共享，那么某个线程对地址的非法访问就会导致内存的不确定性，进而会影响到其他线程，可能导致一系列严重的后果，于是操作系统干脆让整个进程崩溃。
-在一个进程中，所有的线程共享代码段、数据段、地址空间，文件非法访问内存有以下几种情况：
-针对只读内存写入数据 #include&lt;stdio.h&gt; #includ&lt;stdlib.h&gt; int main() { char *s = &#34;hello world&#34;; // 向只读内存写入数据，导致崩溃 s[1] = &#39;H&#39;; } 访问了进程没有权限访问的地址空间（比如内核空间） #include&lt;stdio.h&gt; #includ&lt;stdlib.h&gt; int main() { int *p = (int *)0xC0000fff; // 针对进程的内核空间写入数据，导致崩溃 *p = 10; } 在 32 位虚拟地址空间中，p 指向的是内核空间
-访问了不存在的内存 #include&lt;stdio.h&gt; #includ&lt;stdlib.h&gt; int main() { int *a = NULL; *a = 1; } 以上错误都是访问内存时的错误，会统一报 Segment Fault 错误，这些都会导致进程崩溃
-进程是如何崩溃的？——信号机制简介 既然线程崩溃后，进程也会崩溃，那进程到底是如何崩溃的呢？其背后的机制是信号。
-如果我们想要杀掉一个正在运行的进程，常常会用到 kill -9 pid 这样的命令，这里的 kill 其实就是给指定 pid 发送终止信号的意思，其中 9 就是信号。
-在 Linux 中可以通过 kill -l 查看所有可用的信号：
-...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 线程崩溃后为什么不会导致 JVM 崩溃？" href="http://localhost:1313/notes/2025-1-15-jvmcrashes/"></a>
+  <footer class="entry-footer"><span title='2024-05-05 00:00:00 +0000 UTC'>May 5, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Spring 框架学习笔记" href="http://localhost:1313/notes/2024-5-5-spring/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">缓存穿透、缓存雪崩、缓存击穿与缓存污染
+    <h2 class="entry-hint-parent">JDBC 学习笔记
     </h2>
   </header>
   <div class="entry-content">
-    <p>1.缓存穿透 什么是缓存穿透？
-我们使用 redis 大部分情况都是通过 key 查询对应的值，假如发送的请求传进来的 key 是不存在redis 中的，那么就查不到缓存，查不到缓存就会去数据库查询。假如有大量这样的请求，这些请求像“穿透”了缓存一样直接打在数据库上，这种现象就叫做缓存穿透。
-分析：
-关键在于在 redis 查不到 key 值，这和缓存击穿有根本的区别，区别在于缓存穿透的情况是传进来的 key 在 redis 中是不存在的。假如有黑客传进大量的不存在的 key ，那么大量的请求打在数据库上是很致命的问题，所以在日常开发中要对参数做好校验，一些非法的参数，不可能存在的key就直接返回错误提示，要对调用方保持这种“不信任”的心态。
-解决方案：
-把无效的 key 存进 redis 中。如果 redis 查不到数据，数据库也查不到，我们把这个 key 值保存进 redis ，设置 value=“null” ，当下次再通过这个 key 查询时就不需要再查询数据库。但这种处理方式肯定是有问题的，假如传进来的这个不存在的 key 值每次都是随机的，那存进 redis 也没有意义，会造成无意义的内存消耗，并且如果某个之前访问过的 key 此时设置了对应的值，那么就会造成 redis 和数据库的短暂不一致。 使用布隆过滤器。布隆过滤器的作用是某个 key 不存在，那么就一定不存在，它说某个 key 存在，那么很大可能是存在(存在一定的误判率)。于是我们可以在缓存之前再加一层布隆过滤器，在查询的时候先去布隆过滤器查询 key 是否存在，如果不存在就直接返回。 布隆过滤器的一种实现：
-初始化一个较大的数组，用来存放二进制 0 或 1。一开始数组中数据都为 0，当一个 key 来了之后经过 3 次 hash 计算，得到三个下标 index，将数组中这三个下标对应的数据从 0 改为 1，这样的话数组中三个位置就能标明一个 key 的存在。 当然这种实现也是有误判率的，应该说布隆过滤器的误判率不可能为 0。如果我们想要减少误判率，就得增加数组的长度，但这样会造成更多的内存消耗。 ...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to 缓存穿透、缓存雪崩、缓存击穿与缓存污染" href="http://localhost:1313/notes/2024-11-6-cache_penetration/"></a>
+  <footer class="entry-footer"><span title='2024-04-06 00:00:00 +0000 UTC'>April 6, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to JDBC 学习笔记" href="http://localhost:1313/notes/2024-4-6-jdbc/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

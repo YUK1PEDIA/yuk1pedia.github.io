@@ -116,71 +116,26 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">01 背包
+    <h2 class="entry-hint-parent">LCR-动态规划
     </h2>
   </header>
   <div class="entry-content">
     <p></p>
   </div>
-  <footer class="entry-footer"><span title='2024-07-12 00:00:00 +0000 UTC'>July 12, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to 01 背包" href="http://localhost:1313/algorithm/2024-7-12-0-1_knapsack_problem/"></a>
+  <footer class="entry-footer"><span title='2024-11-01 00:00:00 +0000 UTC'>November 1, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to LCR-动态规划" href="http://localhost:1313/algorithm/2024-11-1-dynamic_programming/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">岛屿类问题的通用解法、DFS 遍历框架
+    <h2 class="entry-hint-parent">图论
     </h2>
   </header>
   <div class="entry-content">
     <p></p>
   </div>
-  <footer class="entry-footer"><span title='2024-07-04 00:00:00 +0000 UTC'>July 4, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to 岛屿类问题的通用解法、DFS 遍历框架" href="http://localhost:1313/algorithm/2024-7-4-dfs_traversal_framework/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Lambda表达式在STL中的应用
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p> C&#43;&#43;中的Lambda表达式是一种简洁的方式来定义匿名函数，尤其在需要传递函数作为参数或局部定义函数时非常方便
-Lambda表达式的语法格式如下：
-[capture](parameters) -&gt; return_type { // function body }; capture：用于捕获外部变量，类似闭包。可以通过值传递或引用传递。 parameters：函数的参数列表（可以为空）。 return_type（可选）：指定返回类型，若省略，编译器会自动推导。 function body：函数体，包含实际执行的代码。 举个简单的例子：
-auto add = [](int a, int b) -&gt; int { return a &#43; b; }; 这个Lambda表达式创建了一个匿名函数，它接受两个整数参数a和b，并返回它们的和。
-捕获外部变量：在Lambda表达式中可以通过捕获列表来引用函数外部的变量，有三种常见方式：
-按值捕获 [x]：捕获外部变量x的值。
-按引用捕获 [&amp;x]：捕获外部变量x的引用，可以在Lambda内部修改它。
-隐式捕获 [=]（按值捕获所有外部变量）、[&amp;]（按引用捕获所有外部变量）。
-示例：
-int factor = 10; auto multiply = [factor](int x) { return x * factor; }; // 按值捕获 常见用法
-自定义比较器：在排序、优先队列等场合，通常需要根据特定规则对元素进行排序。
-std::sort 自定义排序： vector&lt;int&gt; arr = {5, 2, 9, 1}; sort(arr.begin(), arr.end(), [](int a, int b) { return a &gt; b; // 降序排列 }); 优先队列（最大堆或最小堆）： priority_queue&lt;int, vector&lt;int&gt;, decltype([](int a, int b) { return a &gt; b; })&gt; pq; 函数对象作为参数传递：在STL算法函数中，Lambda常被用作传递的回调函数，比如std::for_each, std::count_if等。
-...</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to Lambda表达式在STL中的应用" href="http://localhost:1313/algorithm/2024-9-13-lambda/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">LCR-二叉树
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>1.根据前序与中序遍历序列构造二叉树 给定两个整数数组 preorder 和 inorder ，其中 preorder 是二叉树的先序遍历， inorder 是同一棵树的中序遍历，请构造二叉树并返回其根节点。
-示例 1:
-输入: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]输出: [3,9,20,null,null,15,7] 示例 2:
-输入: preorder = [-1], inorder = [-1]输出: [-1] 提示:
-1 &lt;= preorder.length &lt;= 3000 inorder.length == preorder.length -3000 &lt;= preorder[i], inorder[i] &lt;= 3000 preorder 和 inorder 均 无重复 元素 inorder 均出现在 preorder preorder 保证 为二叉树的前序遍历序列 inorder 保证 为二叉树的中序遍历序列 思路
-前序遍历：按照「根-左子树-右子树」的顺序遍历二叉树。
-中序遍历：按照「左子树-根-右子树」的顺序遍历二叉树。
-我们来看看示例 1 是怎么生成这棵二叉树的。
-递归边界：如果 preorder 的长度是 0，对应着空节点，返回空。
-...</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to LCR-二叉树" href="http://localhost:1313/algorithm/2024-10-21-binary_tree/"></a>
+  <footer class="entry-footer"><span title='2024-10-28 00:00:00 +0000 UTC'>October 28, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 图论" href="http://localhost:1313/algorithm/2024-10-28-graph_theory/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -189,37 +144,22 @@ std::sort 自定义排序： vector&lt;int&gt; arr = {5, 2, 9, 1}; sort(arr.begi
     </h2>
   </header>
   <div class="entry-content">
-    <p>1.位1的个数 编写一个函数，输入是一个无符号整数（以二进制串的形式），返回其二进制表达式中数字位数为 ‘1’ 的个数（也被称为 汉明重量).）。
-提示：
-请注意，在某些语言（如 Java）中，没有无符号整数类型。在这种情况下，输入和输出都将被指定为有符号整数类型，并且不应影响您的实现，因为无论整数是有符号的还是无符号的，其内部的二进制表示形式都是相同的。 在 Java 中，编译器使用 二进制补码 记法来表示有符号整数。因此，在上面的 示例 3 中，输入表示有符号整数 -3。 示例 1：
-输入：n = 11 (控制台输入 00000000000000000000000000001011)输出：3解释：输入的二进制串 00000000000000000000000000001011 中，共有三位为 &#39;1&#39;。 示例 2：
-输入：n = 128 (控制台输入 00000000000000000000000010000000)输出：1解释：输入的二进制串 00000000000000000000000010000000 中，共有一位为 &#39;1&#39;。 示例 3：
-输入：n = 4294967293 (控制台输入 11111111111111111111111111111101，部分语言中 n = -3）输出：31解释：输入的二进制串 11111111111111111111111111111101 中，共有 31 位为 &#39;1&#39;。 提示：
-输入必须是长度为 32 的 二进制串 。 方法一：逐位判断
-由于要求给定无符号整数的二进制 1 的个数，这里可以直接对 2 取模，拿到当前整数 n 的二进制最右边的数字，判断是否为 1 ，然后将 n 右移 1 位 ，逐位判断即可。
-...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
+  <footer class="entry-footer"><span title='2024-10-22 00:00:00 +0000 UTC'>October 22, 2024</span></footer>
   <a class="entry-link" aria-label="post link to LCR-位运算" href="http://localhost:1313/algorithm/2024-10-22-bit_operation/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">LCR-动态规划
+    <h2 class="entry-hint-parent">LCR-二叉树
     </h2>
   </header>
   <div class="entry-content">
-    <p>1.斐波那契数 斐波那契数 （通常用 F(n) 表示）形成的序列称为 斐波那契数列 。该数列由 0 和 1 开始，后面的每一项数字都是前面两项数字的和。也就是：
-F(0) = 0，F(1) = 1F(n) = F(n - 1) &#43; F(n - 2)，其中 n &gt; 1 给定 n ，请计算 F(n) 。
-答案需要取模 1e9&#43;7(1000000007) ，如计算初始结果为：1000000008，请返回 1。
-示例 1：
-输入：n = 2输出：1解释：F(2) = F(1) &#43; F(0) = 1 &#43; 0 = 1 示例 2：
-输入：n = 3输出：2解释：F(3) = F(2) &#43; F(1) = 1 &#43; 1 = 2 示例 3：
-输入：n = 4输出：3解释：F(4) = F(3) &#43; F(2) = 2 &#43; 1 = 3 提示：
-...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to LCR-动态规划" href="http://localhost:1313/algorithm/2024-11-1-dynamic_programming/"></a>
+  <footer class="entry-footer"><span title='2024-10-21 00:00:00 +0000 UTC'>October 21, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to LCR-二叉树" href="http://localhost:1313/algorithm/2024-10-21-binary_tree/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -228,17 +168,34 @@ F(0) = 0，F(1) = 1F(n) = F(n - 1) &#43; F(n - 2)，其中 n &gt; 1 给定 n �
     </h2>
   </header>
   <div class="entry-content">
-    <p>1.用两个栈实现队列 读者来到图书馆排队借还书，图书管理员使用两个书车来完成整理借还书的任务。书车中的书从下往上叠加存放，图书管理员每次只能拿取书车顶部的书。排队的读者会有两种操作：
-push(bookID)：把借阅的书籍还到图书馆。 pop()：从图书馆中借出书籍。 为了保持图书的顺序，图书管理员每次取出供读者借阅的书籍是 最早 归还到图书馆的书籍。你需要返回 每次读者借出书的值 。
-如果没有归还的书可以取出，返回 -1 。
-示例 1：
-输入：[&#34;BookQueue&#34;, &#34;push&#34;, &#34;push&#34;, &#34;pop&#34;][[], [1], [2], []]输出：[null,null,null,1]解释：MyQueue myQueue = new MyQueue();myQueue.push(1); // queue is: [1]myQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)myQueue.pop(); // return 1, queue is [2] 提示：
-1 &lt;= bookID &lt;= 10000 最多会对 push、pop 进行 10000 次调用 思路
-用两个栈 st1 和 st2 实现队列，我们将 st2 作为辅助栈，其栈顶元素即为队首元素。
-...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
+  <footer class="entry-footer"><span title='2024-10-08 00:00:00 +0000 UTC'>October 8, 2024</span></footer>
   <a class="entry-link" aria-label="post link to LCR-栈和队列" href="http://localhost:1313/algorithm/2024-10-8-stack_and_queue/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">分治——归并排序与二分查找
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2024-09-20 00:00:00 +0000 UTC'>September 20, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 分治——归并排序与二分查找" href="http://localhost:1313/algorithm/2024-9-20-divide_and_conquermerge_sorting_and_binary_search/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">数位 dp 通用模板
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2024-09-20 00:00:00 +0000 UTC'>September 20, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 数位 dp 通用模板" href="http://localhost:1313/algorithm/2024-9-20-shuwei_dp/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -247,56 +204,34 @@ push(bookID)：把借阅的书籍还到图书馆。 pop()：从图书馆中借�
     </h2>
   </header>
   <div class="entry-content">
-    <p>1.找出最具竞争力的子序列（单调栈&#43;贪心） 给你一个整数数组 nums 和一个正整数 k ，返回长度为 k 且最具 竞争力 的 nums 子序列。
-数组的子序列是从数组中删除一些元素（可能不删除元素）得到的序列。
-在子序列 a 和子序列 b 第一个不相同的位置上，如果 a 中的数字小于 b 中对应的数字，那么我们称子序列 a 比子序列 b（相同长度下）更具 竞争力 。 例如，[1,3,4] 比 [1,3,5] 更具竞争力，在第一个不相同的位置，也就是最后一个位置上， 4 小于 5 。
-示例 1：
-输入：nums = [3,5,2,6], k = 2输出：[2,6]解释：在所有可能的子序列集合 {[3,5], [3,2], [3,6], [5,2], [5,6], [2,6]} 中，[2,6] 最具竞争力。 示例 2：
-输入：nums = [2,4,3,3,5,4,9,6], k = 4输出：[2,3,3,4] 提示：
-1 &lt;= nums.length &lt;= 10^5 0 &lt;= nums[i] &lt;= 10^9 1 &lt;= k &lt;= nums.length 思路 根据题意，最具竞争力的子序列一定是较小的元素尽可能地放到序列的前面。所以我们可以遍历一遍数组，维持一个单调栈结构，将较小的元素尽可能地往前放。
-...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
+  <footer class="entry-footer"><span title='2024-09-18 00:00:00 +0000 UTC'>September 18, 2024</span></footer>
   <a class="entry-link" aria-label="post link to leetcode" href="http://localhost:1313/algorithm/2024-9-18-leetcode/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">leetcode hot100
+    <h2 class="entry-hint-parent">Lambda 表达式在 STL 中的应用
     </h2>
   </header>
   <div class="entry-content">
-    <p>[TOC]
-1.两数之和 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的数组下标。
-你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
-你可以按任意顺序返回答案。
-示例 1：
-输入：nums = [2,7,11,15], target = 9输出：[0,1]解释：因为 nums[0] &#43; nums[1] == 9 ，返回 [0, 1] 。 示例 2：
-输入：nums = [3,2,4], target = 6输出：[1,2] 示例 3：
-输入：nums = [3,3], target = 6输出：[0,1] 提示：
-2 &lt;= nums.length &lt;= 10^4 -10^9 &lt;= nums[i] &lt;= 10^9 -10^9 &lt;= target &lt;= 10^9 只会存在一个有效答案 **进阶：**你可以想出一个时间复杂度小于 O(n^2) 的算法吗？
-思路 **对于每一个遍历到的 x，我们只需要找到相应的 (target - x) 即可。**于是我们可以创建一个哈希表，只需要对 nums 数组进行一次遍历，每次遍历到 x，查询当前哈希表中是否存在 (target - x)，假设没有找到，那么将 x 插入到哈希表中，保证 x 不会与自己匹配。代码如下：
-...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to leetcode hot100" href="http://localhost:1313/algorithm/2024-8-18-leetcode_hot100/"></a>
+  <footer class="entry-footer"><span title='2024-09-13 00:00:00 +0000 UTC'>September 13, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Lambda 表达式在 STL 中的应用" href="http://localhost:1313/algorithm/2024-9-13-lambda/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">STL容器——string成员函数
+    <h2 class="entry-hint-parent">前缀和与差分数组
     </h2>
   </header>
   <div class="entry-content">
-    <p>转载，原文链接：https://www.cnblogs.com/lynx-peng/p/16552710.html
-1.构造与析构 构造
-string()//构造空字符串 string(const char* s);//拷贝s所指向的字符串序列 string(const char* s, size_t n);//拷贝s所指向的字符串序列的第n个到结尾的字符 string(size_t n, char c);//将字符c复制n次 string(const string&amp; str);//拷贝构造函数 string(const string&amp; str, size_t pos, size_t len = npos);//拷贝s中从pos位置起的len个字符，若npos&gt;字符串长度，就拷贝到字符串结尾结束 析构
-~string();//删除字符串 2.迭代器 /*迭代器*/ iterator begin(); //返回指向字符串第一个字符的迭代器 iterator end(); //返回指向字符串最后一个字符的下一个位置的迭代器 reverse_iterator rbegin(); //返回字符串最后一个字符的反向迭代器 reverse_iterator rend(); //返回指向字符串第一个字符之前的反向迭代器 /*常量迭代器*/ iterator cbegin(); //返回指向字符串第一个字符的迭代器 iterator cend(); //返回指向字符串最后一个字符的下一个位置的迭代器 reverse_iterator rcbegin(); //返回字符串最后一个字符的反向迭代器 reverse_iterator rcend(); //返回指向字符串第一个字符之前的反向迭代器 注：迭代器（非常量迭代器）和常量迭代器的区别如下：
-非常量迭代器允许修改迭代器所指向的元素，这类迭代器通常用于需要修改容器中元素的情况 常量迭代器不允许修改迭代器所指向的元素，这类迭代器通常用于只需要读取容器中元素的情况 3.访问 reference at(size_type pos);//同char&amp; operator[]，返回pos位置字符的引用，字符串可读可写 char&amp; back();//返回最后字符的引用 char&amp; front();//返回第一个字符的引用 4.长度及容量 size_t size();//返回字符串字符个数 size_t length();//返回字符串字符个数 size_t max_size();//返回string对象中可存放的最大字符串的长度 size_t capacity();//返回string分配的存储容量。 void resize (size_t n);//调整源字符串的长度为n。 void resize (size_t n, char c);//调整字符串长度为n，并用字符c填充不足的部分 void reserve (size_t n = 0);//重新给源字符串分配存储最小为n的容量 void shrink_to_fit()//清理内存，使字符串的容量变得等于字符串的大小 void clear();//将字符串的内容清空，让源字符串成为一个空字符串（长度为0个字符） bool empty();//判断字符串是否为空 5.修饰 5.1.append() 在结尾添加字符串 string &amp; append(const string &amp; str)//在结尾添加一个string字符串 string &amp; append(const string &amp; str, size_type subpos, size_type sublen)//追加str中从subpos开始的sublen个字符(子串) string &amp; append(const charT * s)//C语言字符串 string &amp; append(const charT * s, size_type n)//C语言字符串(长度为n的子串) string &amp; append(size_type n, charT c)//n个字符c string &amp; append(InputIterator first, InputIterator last)//使用迭代器append 5.2.push_back() 将字符串添加到串尾 void push_back (charT c);//将字符C添加到结尾 5.3.assign() 赋值 string &amp;assign(const char *s);///char*类型的字符串赋给当前字符串 string &amp;assign(const char *s,int n);//从给定的 C 风格字符串 s 的前 n 个字符创建一个新的字符串，并将当前字符串设置为这个新字符串的内容 string &amp;assign(const string &amp;s);//把字符串s赋给当前字符串 string &amp;assign(int n,char c);//用n个字符c赋值给当前字符串 string &amp;assign(const string &amp;s,int start,int n);//把字符串s中从start开始的n个字符赋给当前字符串 string &amp;assign(const_iterator first,const_itertor last);//把first和last迭代器之间的部分赋给字符串 5.4.insert() 在串中间插入 string &amp; insert(size_type pos, const string &amp; str)//在pos位置插入字符串str string &amp; insert(size_type pos, const string &amp; str,size_type subpos, size_type sublen)//从subpos开始的sublen的子串 string &amp; insert(size_type pos, const charT * s)//C语言字符串 string &amp; insert(size_type pos, const charT * s, size_type n)//C语言字符串(长度为n的子串) string &amp; insert(size_type pos, size_type n, charT c)//n个字符c iterator insert(const_iterator p, size_type n, charT c)//使用迭代器索引插入n和字符 iterator insert(const_iterator p, charT c)//单一字符 iterator insert(iterator p, InputIterator first, InputIterator last)//使用迭代器insert 5.5.erase() 删除字符串中的特定字符 string &amp; erase(size_type pos=0, size_type len=npos)//从pos处删除len长度的字符 iterator erase(const_iterator p)//删除迭代器所指的单一字符 iterator erase(const_iterator first, const_iterator last)//删除2迭代器中间的字符 5.6.replace() 替换字符串的一部分 string &amp; replace(size_type pos,size_type len,const string &amp; str)//从pos位置开始，长度为len的字符替换为str string &amp; replace(const_iterator i1, const_iterator i2, const string &amp; str)//替换两迭代器之间的字符 string &amp; replace(size_type pos, size_type len, const string &amp; str,size_type subpos, size_type sublen)//使用子串替换 string &amp; replace(size_type pos, size_type len, const charT * s)//使用C语言字符串 string &amp; replace(const_iterator i1, const_iterator i2, const charT * s)//迭代器方法 string &amp; replace(size_type pos, size_type len, const charT * s, size_type n)//使用子串 string &amp; replace(const_iterator i1, const_iterator i2, const charT * s, size_type n)//迭代器方法 string &amp; replace(size_type pos, size_type len, size_type n, charT c)//用n个字符c替换 string &amp; replace(const_iterator i1, const_iterator i2, size_type n, charT c)//迭代器方法 string &amp; replace(const_iterator i1, const_iterator i2, InputIterator first, InputIterator last)//迭代器方法 5.7.swap() 交换两字符串 void swap (&amp; str);//交换self和str 5.8.pop_back() 删除最后一个字符 void pop_back();//删除串中最后一个字符 6.操作 6.1.find() 查找 size_type find(const string &amp; str, size_type pos=0) const;//从母字符串的pos位置查找字串str.存在返回字串第一个字符的位置，不存在返回npos size_type find(const charT * s, size_type pos=0) const;//C语言字符串作为子串 size_type find(const charT * s, size_type pos, size_type n) const;//C语言字符串的子串(长度为n)作为被查找子串 size_type find(charT c, size_type pos=0) const;//查找单个字符 //倒着找 size_type rfind(const string &amp; str, size_type pos=npos) const; size_type rfind(const charT * s, size_type pos=npos); size_type rfind(const charT * s, size_type pos, size_type n); size_type rfind(charT c, size_type pos=npos) const; //查找字符串中与目标字符(串中任一个字符)相同的第一个字符 size_type find_first_of(const string &amp; str, size_type pos=0) const; size_type find_first_of(const charT * s, size_type pos=0) const; size_type find_first_of(const charT * s, size_type pos, size_type n); size_type find_first_of(charT c, size_type pos=0) const; //倒着找 or 找最后一个 size_type find_last_of(const string &amp; str, size_type pos=npos) const size_type find_last_of(const charT * s, size_type pos=npos) const size_type find_last_of(const charT * s, size_type pos, size_type n) const size_type find_last_of(charT c, size_type pos=npos) const //查找字符串中与目标字符(串中任一个字符)不相同的第一个字符 size_type find_first_not_of(const string &amp; str, size_type pos=0) const; size_type find_first_not_of(const charT * s, size_type pos=0) const; size_type find_first_not_of(const charT * s, size_type pos, size_type n) const; size_type find_first_not_of(charT c, size_type pos=0) const; //倒着找 or 找最后一个 size_type find_last_not_of(const string &amp; str, size_type pos=npos) const ; size_type find_last_not_of(const charT * s, size_type pos=npos) const; size_type find_last_not_of(const charT * s, size_type pos, size_type n) const; size_type find_last_not_of(charT c, size_type pos=npos) const ; 6.2.substr() 子串 string substr (size_type pos = 0, size_type len = npos) const;//返回一个从pos开始，len长度的string类型的子串 6.3.compare() 比较 int compare (const string&amp; str) const ;//比较字符串大小，源串大于str返回值&gt;0，相同=0,小于&lt;0 int compare (size_type pos, size_type len, const string&amp; str) const;//用自身的子串比较 int compare (size_type pos, size_type len, const string&amp; str, size_type subpos, size_type sublen) const;//两字符串均为子串 int compare (const charT* s) const;//C语言字符串 int compare (size_type pos, size_type len, const charT* s) const;//C语言字符串子串 int compare (size_type pos, size_type len, const charT* s, size_type n) const;//双子串 6.4.copy() 复制到字符数组 size_type copy (charT* s, size_type len, size_type pos = 0) const;//从string类型对象中至多复制n个字符到字符指针p指向的空间中。不添加&#39;\0&#39; 7.符号重载 7.1.= 赋值 string &amp;operator=(const string &amp;s);//把字符串s赋给当前字符串 string &amp;operator=(const char* s);//char*类型的字符串赋给当前字符串 string &amp;operator=(char c);//单个字符赋给当前字符串 7.2.[] 访问 char&amp; operator[] (size_t pos);//返回pos处字符的引用 越界导致未定义行为 7.3.&#43;= 追加 string&amp; operator&#43;= (const string&amp; str);//在结尾加如str字符串，等效于append string&amp; operator&#43;= (const char* s);//C语言字符串 string&amp; operator&#43;= (char c);//单个字符 8.补充：cctype 字符处理库 C&#43;&#43;从C语言继承了一个与字符相关的、非常方便的函数软件包，它可以简化诸如确定字符是否为大写字母、数字、标点符号等工作，这些函数的原型在头文件cctype中定义，使用 #include &lt;cctype&gt; 引入
-...</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to STL容器——string成员函数" href="http://localhost:1313/algorithm/2024-9-5-stl_string/"></a>
+  <footer class="entry-footer"><span title='2024-09-13 00:00:00 +0000 UTC'>September 13, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 前缀和与差分数组" href="http://localhost:1313/algorithm/2024-9-13-prefix_sum/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
