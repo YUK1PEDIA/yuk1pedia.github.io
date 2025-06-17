@@ -1,10 +1,9 @@
----
-layout: post
-title: Springboot框架学习笔记
-description: 记录
-tag: 笔记
----
-
++++
+date = '2024-05-13'
+draft = false
+title = 'Springboot 学习笔记'
+summary = ' '
++++
 
 
 ## SpringBoot概念与功能

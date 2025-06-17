@@ -1,9 +1,9 @@
----
-layout: post
-title: 什么是强引用、软引用、弱引用和虚引用？
-description: 记录
-tag: 笔记
----
++++
+date = '2025-01-29'
+draft = false
+title = '什么是强引用、软引用、弱引用和虚引用？'
+summary = ' '
++++
 
 ## 1. 强引用（Strong Reference）
 

@@ -1,9 +1,9 @@
----
-layout: post
-title: 基于Redis的用户短信登陆功能
-description: 记录
-tag: 笔记
----
++++
+date = '2024-11-06'
+draft = false
+title = '基于 Redis 的用户短信登陆功能'
+summary = ' '
++++
 
 ## 1.发送验证码功能实现
 

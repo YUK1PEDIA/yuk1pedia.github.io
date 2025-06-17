@@ -1,9 +1,9 @@
----
-layout: post
-title: Spring Cache
-description: 记录
-tag: 笔记
----
++++
+date = '2024-09-24'
+draft = false
+title = 'Spring Cache'
+summary = ' '
++++
 
 ## 什么是Spring Cache？
 

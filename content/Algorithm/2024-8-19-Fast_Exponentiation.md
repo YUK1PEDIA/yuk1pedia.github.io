@@ -1,9 +1,9 @@
----
-layout: post
-title: 快速幂
-description: 记录
-tag: 算法
----
++++
+date = '2024-08-19'
+draft = false
+title = '快速幂'
+summary = ' '
++++
 
 ![LC50-1.png](https://pic.leetcode.cn/1722389981-SLFaTc-LC50-1.png) 
 

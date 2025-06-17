@@ -1,9 +1,9 @@
----
-layout: post
-title: LCR-位运算
-description: 记录
-tag: 算法
----
++++
+date = '2024-10-22'
+draft = false
+title = 'LCR-位运算'
+summary = ' '
++++
 
 ## 1.位1的个数
 

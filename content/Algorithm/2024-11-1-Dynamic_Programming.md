@@ -1,9 +1,9 @@
----
-layout: post
-title: LCR-动态规划
-description: 记录
-tag: 算法
----
++++
+date = '2024-11-01'
+draft = false
+title = 'LCR-动态规划'
+summary = ' '
++++
 
 ## 1.斐波那契数
 

@@ -1,9 +1,9 @@
----
-layout: post
-title: 最大子数组和
-description: 记录
-tag: 算法
----
++++
+date = '2024-08-22'
+draft = false
+title = '最大子数组和'
+summary = ' '
++++
 
 对于最大子数组和的动态规划问题，一般这样思考：
 

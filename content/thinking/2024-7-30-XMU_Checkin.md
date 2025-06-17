@@ -1,9 +1,9 @@
----
-layout: post
-title: 如何爬取厦大智慧教务签到码
-description: 记录
-tag: 随笔
----
++++
+date = '2024-07-30'
+draft = false
+title = '如何爬取厦大智慧教务签到码'
+summary = ' '
++++
 
 ## 前言
 

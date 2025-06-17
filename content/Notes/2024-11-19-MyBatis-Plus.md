@@ -1,9 +1,9 @@
----
-layout: post
-title: MyBatis-plus
-description: 记录
-tag: 笔记
----
++++
+date = '2024-11-19'
+draft = false
+title = 'MyBatis-plus'
+summary = ' '
++++
 
 ## 简介
 

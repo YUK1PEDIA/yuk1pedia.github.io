@@ -1,9 +1,9 @@
----
-layout: post
-title: MySQL原理
-description: 记录
-tag: 笔记
----
++++
+date = '2024-11-04'
+draft = false
+title = 'MySQL 原理'
+summary = ' '
++++
 
 
 

@@ -1,9 +1,9 @@
----
-layout: post
-title: Java的反射机制
-description: 记录
-tag: 笔记
----
++++
+date = '2024-11-27'
+draft = false
+title = 'Java 的反射机制'
+summary = ' '
++++
 
 ## 1.什么是反射机制？
 

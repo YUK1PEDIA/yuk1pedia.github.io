@@ -1,9 +1,9 @@
----
-layout: post
-title: Linux常用命令
-description: 记录
-tag: 笔记
----
++++
+date = '2025-03-10'
+draft = false
+title = 'Linux 常用命令'
+summary = ' '
++++
 
 ## 1.文件与目录操作
 

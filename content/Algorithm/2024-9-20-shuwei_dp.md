@@ -1,9 +1,9 @@
----
-layout: post
-title: 数位dp通用模板
-description: 记录
-tag: 算法
----
++++
+date = '2024-09-20'
+draft = false
+title = '数位 dp 通用模板'
+summary = ' '
++++
 
 数位动态规划（数位dp）主要用于解决“在区间 `[l, r]` 这个范围内，满足某种**约束**的数字的**数量、总和、平方**”这一类问题
 

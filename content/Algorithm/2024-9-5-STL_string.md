@@ -1,9 +1,9 @@
----
-layout: post
-title: STL容器——string成员函数
-description: 记录
-tag: 算法
----
++++
+date = '2024-09-05'
+draft = false
+title = 'STL容器——string成员函数'
+summary = ' '
++++
 
 转载，原文链接：https://www.cnblogs.com/lynx-peng/p/16552710.html
 

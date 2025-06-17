@@ -1,9 +1,9 @@
----
-layout: post
-title: Spring Task
-description: 记录
-tag: 笔记
----
++++
+date = '2024-10-03'
+draft = false
+title = 'Spring Task'
+summary = ' '
++++
 
 ## 什么是 Spring Task
 

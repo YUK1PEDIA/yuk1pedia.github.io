@@ -1,9 +1,9 @@
----
-layout: post
-title: RocketMQ
-description: 记录
-tag: 笔记
----
++++
+date = '2025-03-02'
+draft = false
+title = 'RocketMQ'
+summary = ' '
++++
 
 [TOC]
 

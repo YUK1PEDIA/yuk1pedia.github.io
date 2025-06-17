@@ -1,9 +1,9 @@
----
-layout: post
-title: 前缀和与差分数组
-description: 记录
-tag: 算法
----
++++
+date = '2024-09-13'
+draft = false
+title = '前缀和与差分数组'
+summary = ' '
++++
 
 ## 前缀和
 

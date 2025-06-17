@@ -1,9 +1,9 @@
----
-layout: post
-title: RPC vs HTTP
-description: 记录
-tag: 笔记
----
++++
+date = '2025-02-14'
+draft = false
+title = 'RPC vs HTTP'
+summary = ' '
++++
 
 **HTTP 协议**和 **RPC 协议**是两种广泛使用的通信协议，它们在分布式系统、微服务架构和跨语言应用中扮演着重要角色。这两种协议有一个共同的特点：它们都是由 **TCP 协议** 衍生而来的。
 

@@ -1,9 +1,9 @@
----
-layout: post
-title: LCR-栈和队列
-description: 记录
-tag: 算法
----
++++
+date = '2024-10-08'
+draft = false
+title = 'LCR-栈和队列'
+summary = ' '
++++
 
 ## 1.用两个栈实现队列
 

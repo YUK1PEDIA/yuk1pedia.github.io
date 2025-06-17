@@ -1,9 +1,9 @@
----
-layout: post
-title: 分布式锁
-description: 记录
-tag: 笔记
----
++++
+date = '2024-11-09'
+draft = false
+title = '分布式锁'
+summary = ' '
++++
 
 ## 基本原理和实现方式
 

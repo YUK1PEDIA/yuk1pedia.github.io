@@ -1,9 +1,9 @@
----
-layout: post
-title: 线程崩溃后为什么不会导致 JVM 崩溃？
-description: 记录
-tag: 笔记
----
++++
+date = '2025-01-15'
+draft = false
+title = '线程崩溃后为什么不会导致 JVM 崩溃？'
+summary = ' '
++++
 
 要弄明白这个问题，我们从以下几点进行分析：
 

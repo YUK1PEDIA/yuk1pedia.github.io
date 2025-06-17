@@ -1,10 +1,9 @@
----
-layout: post
-title: python + django
-description: 记录
-tag: 笔记
----
-
++++
+date = '2025-05-03'
+draft = false
+title = 'python + django'
+summary = ' '
++++
 
 
 ## python

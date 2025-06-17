@@ -1,9 +1,9 @@
----
-layout: post
-title: 泛型与函数式编程
-description: 记录
-tag: 笔记
----
++++
+date = '2024-11-07'
+draft = false
+title = '泛型与函数式编程'
+summary = ' '
++++
 
 ## 泛型与函数式编程
 

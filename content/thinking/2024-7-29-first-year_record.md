@@ -1,9 +1,9 @@
----
-layout: post
-title: 大一随笔
-description: 记录
-tag: 随笔
----
++++
+date = '2024-07-29'
+draft = false
+title = '大一随笔'
+summary = ' '
++++
 
 ## 前言
 

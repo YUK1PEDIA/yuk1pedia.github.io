@@ -1,9 +1,9 @@
----
-layout: post
-title: Redis 集群方案
-description: 记录
-tag: 笔记
----
++++
+date = '2025-03-22'
+draft = false
+title = 'Redis 集群方案'
+summary = ' '
++++
 
 ## 1.主从复制
 

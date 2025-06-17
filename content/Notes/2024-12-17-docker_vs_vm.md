@@ -1,9 +1,10 @@
----
-layout: post
-title: Docker 和虚拟机的区别？Docker 是如何实现隔离的？
-description: 记录
-tag: 笔记
----
++++
+date = '2024-12-17'
+draft = false
+title = 'Docker 和虚拟机的区别？Docker 是如何实现隔离的？'
+summary = ' '
++++
+
 
 ## 1. 两者的区别是什么？
 

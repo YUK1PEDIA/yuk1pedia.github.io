@@ -1,9 +1,9 @@
----
-layout: post
-title: 记录暑期和秋招
-description: 记录
-tag: 杂七杂八
----
++++
+date = '2025-04-14'
+draft = false
+title = '记录暑期和秋招'
+summary = ' '
++++
 
 
 

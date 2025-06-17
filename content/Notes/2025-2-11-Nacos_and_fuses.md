@@ -1,9 +1,9 @@
----
-layout: post
-title: 微服务体系结构、Nacos和熔断器
-description: 记录
-tag: 笔记
----
++++
+date = '2025-02-11'
+draft = false
+title = '微服务体系结构、Nacos和熔断器'
+summary = ' '
++++
 
 ## 微服务四大设计原则
 

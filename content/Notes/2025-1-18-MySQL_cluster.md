@@ -1,9 +1,9 @@
----
-layout: post
-title: 在MySQL集群中，在从库已经读到了最新值的情况下，主库还有可能读到旧值吗？
-description: 记录
-tag: 笔记
----
++++
+date = '2025-01-18'
+draft = false
+title = '在MySQL集群中，在从库已经读到了最新值的情况下，主库还有可能读到旧值吗？'
+summary = ' '
++++
 
 参考：https://golangguide.top/
 

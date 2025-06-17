@@ -1,9 +1,9 @@
----
-layout: post
-title: IntelliJ IDEA 中 Lombok 注解失效问题
-description: 记录
-tag: 杂七杂八
----
++++
+date = '2024-12-11'
+draft = false
+title = 'IntelliJ IDEA 中 Lombok 注解失效问题'
+summary = ' '
++++
 
 ## 问题
 

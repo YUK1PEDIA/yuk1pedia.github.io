@@ -1,9 +1,9 @@
----
-layout: post
-title: 分治——归并排序与二分查找
-description: 记录
-tag: 算法
----
++++
+date = '2024-09-20'
+draft = false
+title = '分治——归并排序与二分查找'
+summary = ' '
++++
 
 ## 交易逆序对的总数
 

@@ -1,9 +1,9 @@
----
-layout: post
-title: 分布式相关：CAP和BASE
-description: 记录
-tag: 笔记
----
++++
+date = '2025-03-11'
+draft = false
+title = '分布式相关：CAP 和 BASE'
+summary = ' '
++++
 
 ## 1.CAP 理论
 

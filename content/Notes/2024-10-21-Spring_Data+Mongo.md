@@ -1,9 +1,9 @@
----
-layout: post
-title: Spring Data + Mongo
-description: 记录
-tag: 笔记
----
++++
+date = '2024-10-21'
+draft = false
+title = 'Spring Data + Mongo'
+summary = ' '
++++
 
 ## 1.什么是 Spring Data？
 

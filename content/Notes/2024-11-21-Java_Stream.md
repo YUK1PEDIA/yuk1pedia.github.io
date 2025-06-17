@@ -1,9 +1,9 @@
----
-layout: post
-title: Java Stream
-description: 记录
-tag: 笔记
----
++++
+date = '2024-11-21'
+draft = false
+title = 'Java Stream'
+summary = ' '
++++
 
 ## 简介
 

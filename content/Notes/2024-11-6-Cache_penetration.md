@@ -1,9 +1,9 @@
----
-layout: post
-title: 缓存穿透、缓存雪崩、缓存击穿与缓存污染
-description: 记录
-tag: 笔记
----
++++
+date = '2024-11-06'
+draft = false
+title = '缓存穿透、缓存雪崩、缓存击穿与缓存污染'
+summary = ' '
++++
 
 ## 1.缓存穿透
 

@@ -1,9 +1,9 @@
----
-layout: post
-title: 《Python-craftsman》Reading notes
-description: 记录
-tag: 笔记
----
++++
+date = '2025-05-11'
+draft = false
+title = '《Python-craftsman》Reading notes'
+summary = ' '
++++
 
 
 
