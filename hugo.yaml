@@ -21,6 +21,8 @@ params:
   socialIcons:
     - name: "github"
       url: "https://github.com/YUK1PEDIA"
+    - name: "instagram"
+      url: "https://www.instagram.com/yuk1ped1a?igsh=czBtcHJ6dTNuYjQ0&utm_source=qr"
 
 menu:
   main:

@@ -4,4 +4,4 @@
 
 2025/6/14 - 2025/6/17：完成文章重新分类与总体迁移
 
-访问地址：https://yuk1pedia.github.io/
+访问地址：https://yukipedia.cn/
