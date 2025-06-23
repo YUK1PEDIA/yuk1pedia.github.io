@@ -5,7 +5,7 @@ title = '快速幂'
 summary = ' '
 +++
 
-![LC50-1.png](https://pic.leetcode.cn/1722389981-SLFaTc-LC50-1.png) 
+![image.png](https://s2.loli.net/2025/06/23/tw31dRaX4gCpFk9.png) 
 
 
 
