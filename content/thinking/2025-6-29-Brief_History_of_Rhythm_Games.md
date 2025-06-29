@@ -225,7 +225,7 @@ https://www.bilibili.com/video/BV1b8c8eZEEy/?spm_id_from=333.337.search-card.all
 - KING of Performai
   - https://maimai.sega.jp/kop6th/
   - https://www.bilibili.com/video/BV1yB9TYBEYV/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
-- WEC：华立科技面向中国大陆发起的电竞比赛，氛围男子组与女子组
+- WEC：华立科技面向中国大陆发起的电竞比赛，分为男子组与女子组
   - https://www.bilibili.com/video/BV15u2GYEEQM/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
 
 
