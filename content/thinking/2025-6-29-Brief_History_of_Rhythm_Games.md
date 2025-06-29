@@ -27,7 +27,7 @@ Simon 诞生于 1978 年，由美国人 Milton Bradle 受雅达利游戏机 Touc
 
 这种玩具虽然玩法特别简单，但已经具备了很多音乐游戏的特征——通过灯光给出提示，玩家需要跟随提示去操作，玩家的操作会产生音乐声。虽然并不是真正意义上的音游，但毫无疑问这个小玩具已经具备了音乐游戏的雏形。
 
-体验网站：https://freesimon.org/
+体验网站 https://freesimon.org/
 
 
 
@@ -63,7 +63,7 @@ Simon 诞生于 1978 年，由美国人 Milton Bradle 受雅达利游戏机 Touc
 - Beatmania IIDX：7个按键+转盘进行游戏
 - Beatmania III：5个按键+转盘+踏板进行游戏
 
-手台：https://www.bilibili.com/video/BV1nq4y1p7XZ?spm_id_from=333.788.recommend_more_video.0&vd_source=548ea3473b15a87db5000cd98a1411b1
+手台 https://www.bilibili.com/video/BV1nq4y1p7XZ?spm_id_from=333.788.recommend_more_video.0&vd_source=548ea3473b15a87db5000cd98a1411b1
 
 至此，KONAMI 的音乐帝国已经初露锋芒，无论是对音乐游戏业界还是 KONAMI 本身来说，《Beatmania》的地位都是不可取代的，这款游戏是当之无愧的下落式音游始祖，KONAMI 甚至把旗下音游分布更名为 BEMANI 以纪念《Beatmania》
 
@@ -149,14 +149,14 @@ https://www.bilibili.com/video/BV1Hk4y1c7Na/?spm_id_from=333.337.search-card.all
 可能是受《Beatmania》的影响，移动端目前大多都是下落式音游，当然也有部分公司在这上面进行了创新，比如把传统的 2D 下落式变成 3D 下落式、把有轨改成无轨、扫线式音游等等。
 
 - 无轨下落式
-  - deemo：https://www.bilibili.com/video/BV1sr4y1g7qs/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
-  - dynamix：https://www.bilibili.com/video/BV17341127rY/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
-  - project seikai：https://www.bilibili.com/video/BV1Xd4y1V75q/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
-  - bang dream：https://www.bilibili.com/video/BV1CM4y1z7cR/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
+  - deemo: https://www.bilibili.com/video/BV1sr4y1g7qs/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
+  - dynamix: https://www.bilibili.com/video/BV17341127rY/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
+  - project seikai: https://www.bilibili.com/video/BV1Xd4y1V75q/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
+  - bang dream: https://www.bilibili.com/video/BV1CM4y1z7cR/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
 - 扫线式
-  - cytus：https://www.bilibili.com/video/BV1Vb411q7z2/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
+  - cytus: https://www.bilibili.com/video/BV1Vb411q7z2/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
 - 3D 下落式
-  - arcea：https://www.bilibili.com/video/BV18V4y117hx/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
+  - arcea: https://www.bilibili.com/video/BV18V4y117hx/?spm_id_from=333.337.search-card.all.click&vd_source=548ea3473b15a87db5000cd98a1411b1
 
 还有很多其它类型的移动端音游就不在这里介绍啦 ~
 
