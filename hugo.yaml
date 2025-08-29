@@ -15,7 +15,7 @@ params:
         url: "/notes"
       - name: Algorithm
         url: "/algorithm"
-      - name: All sorts of stuff
+      - name: thinking
         url: "/thinking"
 
   socialIcons:
