@@ -260,7 +260,7 @@ other environment variables...' for 'environment' is badly formatted: unsupporte
 
 这表明 `[supervisord]` section 下的环境变量并没有被正确转义！
 
-是否为 section 的原因？于是我把配置文件中的 environment 挪到 `[program:scheduler]` 和 `[program:web]` 中，再次尝试启动，并没有出现上面的 unsupported format 错误。
+是否为 section 的原因？我把配置文件中的 environment 挪到 `[program:scheduler]` 和 `[program:web]` 中，再次尝试启动，并没有出现上面的 unsupported format 错误。
 
 根据上面的测试与分析，可以确定是 `[supervisord]` 这个 section 中并没有正确地对 `%` 进行转义，**这是 supervisor 现存的一个 BUG**。
 
@@ -274,7 +274,7 @@ section.environment = dict_of_key_value_pairs(environ_str)
 
 这里的 environment 被提前转义后，会被传到 expand 函数中，而 expand 函数会对其进行二次转义，导致出现上面的 unsupported format。
 
-再讲具体一点，用户在 `[supervisord]` section 下设置了已经正确转义的 environment，然后上面的 `get` 函数先把 environment 中的 `%%` 解析成了 `%`，然后这个 environment 被传到 expand 函数，**此时 expand 预期接受的值应该是 `%%`，但实际上接收到的是 `%` **，之后 expand 会对其做同样的操作，这样就导致了 unsupported format。
+再讲具体一点，用户在 `[supervisord]` section 下设置了已经正确转义的 environment，然后上面的 `get` 函数先把 environment 中的 `%%` 解析成了 `%`，然后这个 environment 被传到 expand 函数，**此时 expand 预期接受的值应该是 `%%`，但实际上接收到的是 `%`**，之后 expand 会对其做同样的操作，这样就导致了 unsupported format。
 
 如何修复呢？
 
@@ -284,3 +284,8 @@ supervisor 现在的 `get` 函数提供了一个参数 `do_expand`，用来控�
 
 这样的话，环境变量就能够被正确加载到配置文件中，进而实现环境变量的热更新了。
 
+## 写在最后
+
+无论是捣鼓自己的项目，还是负责工作中的需求，一定一定要做好自测（单元测试 + 本地调试）。同时也需要快速定位到问题发生在哪个环节，避免无效 debug 。
+
+![58d8ffe310b5552ec613dee916fd481b_720.png](https://s2.loli.net/2025/09/04/TxVmpZDkUuSa9e3.jpg)
