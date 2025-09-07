@@ -165,7 +165,7 @@ func DeployHandler(s *WebServer, svc service.DeployServiceHandler) gin.HandlerFu
 
 热更新的底层原理，是使用 python 编写的进程管理工具 supervisor 来实现。
 
-supervisor：[Supervisor/supervisor: Supervisor process control system for Unix (supervisord)](https://github.com/Supervisor/supervisor)
+[Supervisor/supervisor: Supervisor process control system for Unix (supervisord)](https://github.com/Supervisor/supervisor)
 
 具体来说，supervisor 会起一个 **supervisord** 进程对 SaaS 应用进程进行托管（可以理解成 SaaS 应用进程是 supervisord 的子进程），当前端传入环境变量后，supervisord 会重启应用进程，重新读取 supervisord 进程中的新环境变量。
 
@@ -280,7 +280,7 @@ section.environment = dict_of_key_value_pairs(environ_str)
 
 supervisor 现在的 `get` 函数提供了一个参数 `do_expand`，用来控制是否对指定字符进行转义扩展，而且这个参数默认是 true，我们只需要在 `get` 这一层将 `do_expand` 置为 false 即可。
 
-于是就有了这个 PR：https://github.com/Supervisor/supervisor/pull/1695
+于是就有了这个 PR：[fix: [supervisord] environment section does not properly escape %%](https://github.com/Supervisor/supervisor/pull/1695)
 
 这样的话，环境变量就能够被正确加载到配置文件中，进而实现环境变量的热更新了。
 
