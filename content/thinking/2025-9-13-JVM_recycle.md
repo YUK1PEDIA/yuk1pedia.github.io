@@ -151,7 +151,7 @@ JNIEXPORT void JNICALL Java_NativeExample_nativeMethod(JNIEnv *env, jobject this
 
 堆空间主要分为两个区域，**年轻代和老年代**，其中年轻代又分为 Eden 区和 Survivor 区，而 Survivor 区又分为 From 和 To 两个区。
 
-![image-20250927144904773](C:\Users\18627\AppData\Roaming\Typora\typora-user-images\image-20250927144904773.png)
+![image.png](https://s2.loli.net/2025/09/27/CbKdkq7ocTzMeGm.png)
 
 ### Eden 区
 
