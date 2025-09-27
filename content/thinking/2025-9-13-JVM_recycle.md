@@ -1,8 +1,8 @@
 +++
-date = 2025-09-13
+date = '2025-09-13'
 draft = false
-title = ‘浅谈 JVM 垃圾回收机制’
-summary = ' '
+title = '浅谈 JVM 垃圾回收机制'
+summary = ''
 +++
 
 ## 垃圾回收的概念从何而来
