@@ -30,3 +30,6 @@ menu:
       name: About me?
       url: /about
       weight: 1
+
+author:
+  name: "YUKIPEDIA"
