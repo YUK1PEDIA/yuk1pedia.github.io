@@ -11,10 +11,6 @@ params:
     title: "YUKIPEDIA"
     subtitle: "Welcome~  ෆ( ˶'ᵕ'˶)ෆ    "
     buttons:
-      - name: Learning Notes
-        url: "/notes"
-      - name: Algorithm
-        url: "/algorithm"
       - name: Thinking
         url: "/thinking"
 
@@ -24,14 +20,13 @@ params:
     - name: "instagram"
       url: "https://www.instagram.com/yuk1ped1a"
 
+  author:
+    name: "YUKIPEDIA"
+    email: "yukipedia23@gmail.com"
+
 menu:
   main:
     - identifier: about me
       name: About me?
       url: /about
       weight: 1
-
-author:
-  name: "YUKIPEDIA"
-  email: "yukipedia23@gmail.com"
-  
