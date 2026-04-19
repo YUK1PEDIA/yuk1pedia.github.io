@@ -1,7 +1,7 @@
 +++
 date = '2025-02-11'
 draft = false
-title = '微服务体系结构、Nacos和熔断器'
+title = '微服务体系结构、Nacos 和熔断器'
 summary = ' '
 +++
 
