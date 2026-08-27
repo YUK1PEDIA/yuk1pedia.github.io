@@ -8,9 +8,14 @@
       <a href="{{ .URL }}">{{ .Name }}</a>
       {{- end }}
     </nav>
-    {{- with site.Params.github }}
-    <a class="home-github" href="{{ . }}" rel="me">GitHub</a>
-    {{- end }}
+    <div class="home-links">
+      {{- with site.Params.github }}
+      <a href="{{ . }}" rel="me">GitHub</a>
+      {{- end }}
+      {{- with site.Params.instagram }}
+      <a href="{{ . }}" rel="me">Instagram</a>
+      {{- end }}
+    </div>
   </section>
   {{ partial "footer.html" . }}
 </main>

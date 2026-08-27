@@ -133,11 +133,20 @@ summary:focus-visible {
   font-size: 1.35rem;
 }
 
-.home-github {
-  display: inline-block;
+.home-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
   margin-top: 2rem;
+}
+
+.home-links a {
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.home-links a:hover {
+  color: var(--accent);
 }
 
 .home-shell > .site-footer {
