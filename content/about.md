@@ -1,6 +1,5 @@
 ---
 title: "About me?"
-description: "关于我"
 ---
 
 Hi there 👋 I'm YUKIPEDIA.
