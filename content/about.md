@@ -1,8 +1,10 @@
 ---
-title: "About"
-description: "关于这个博客"
+title: "About me?"
+description: "关于我"
 ---
 
-这里是一块安静的写作空间，用来记录思考、技术与生活。
-
-你可以在 `hugo.yaml` 中修改站点名称、简介、作者和社交链接，也可以直接编辑本页作为个人介绍。
+- XMUer
+- Landscape photographer
+- Aspiring backend developer, always learning
+- Love playing all kinds of rhythm games
+- My QQ: 904255490 - hit me up ~
