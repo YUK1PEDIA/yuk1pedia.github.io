@@ -13,8 +13,7 @@ permalinks:
 pagination:
   pagerSize: 20
 
-taxonomies:
-  tag: tags
+taxonomies: {}
 
 outputs:
   home:
@@ -50,9 +49,6 @@ menu:
     - name: "Posts"
       pageRef: "/posts"
       weight: 10
-    - name: "Tags"
-      pageRef: "/tags"
-      weight: 20
     - name: "About"
       pageRef: "/about"
       weight: 30
