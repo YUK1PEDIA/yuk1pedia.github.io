@@ -1,5 +1,9 @@
 ---
-date: '{{ .Date }}'
+title: "{{ replace .Name "-" " " | title }}"
+slug: "{{ .Name }}"
+date: {{ .Date }}
 draft: true
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+tags: []
 ---
+
+从这里开始写正文。

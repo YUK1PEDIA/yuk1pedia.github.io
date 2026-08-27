@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main class="site-main section-inner">
+  <article class="thin article page-article">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </header>
+    <div class="content">{{ .Content }}</div>
+  </article>
+  {{ partial "footer.html" . }}
+</main>
+{{ end }}

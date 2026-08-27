@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main class="site-main section-inner thin">
+  <header class="page-header"><h1>{{ .Title }}</h1></header>
+  <ul class="tag-cloud">
+    {{- range .Data.Terms.Alphabetical }}
+    <li><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }} <span>{{ .Count }}</span></a></li>
+    {{- end }}
+  </ul>
+  {{ partial "footer.html" . }}
+</main>
+{{ end }}

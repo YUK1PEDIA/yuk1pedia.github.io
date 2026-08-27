@@ -1,32 +1,58 @@
-baseURL: 'https://yukipedia.cn/'
-relativeURLs: true  # 强制使用相对路径
-canonifyURLs: true  # 转换绝对路径为相对路径
-languageCode: zh-cn
-title: YUKIPEDIA's blog
-theme: ["PaperMod"]
+baseURL: "https://yuk1pedia.github.io/"
+locale: "zh-cn"
+defaultContentLanguage: "zh"
+title: "MY THINKING"
+timeZone: "Asia/Shanghai"
+hasCJKLanguage: true
+enableRobotsTXT: true
+enableGitInfo: false
+
+permalinks:
+  posts: "/posts/:year/:month/:day/:slug/"
+
+pagination:
+  pagerSize: 20
+
+taxonomies:
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: true
+    style: "monokai"
+
+minify:
+  minifyOutput: true
 
 params:
-  profileMode:
-    enabled: true
-    title: "YUKIPEDIA"
-    subtitle: "Welcome~  ෆ( ˶'ᵕ'˶)ෆ    "
-    buttons:
-      - name: Thinking
-        url: "/thinking"
-
-  socialIcons:
-    - name: "github"
-      url: "https://github.com/YUK1PEDIA"
-    - name: "instagram"
-      url: "https://www.instagram.com/yuk1ped1a"
-
-  author:
-    name: "YUKIPEDIA"
-    email: "yukipedia23@gmail.com"
+  description: "思考、技术与生活的长期记录"
+  tagline: "思考、技术与生活的长期记录"
+  author: "YUK1PEDIA"
+  github: "https://github.com/YUK1PEDIA"
+  footer: "All rights reserved."
 
 menu:
   main:
-    - identifier: about me
-      name: About me?
-      url: /about
-      weight: 1
+    - name: "Posts"
+      pageRef: "/posts"
+      weight: 10
+    - name: "Tags"
+      pageRef: "/tags"
+      weight: 20
+    - name: "About"
+      pageRef: "/about"
+      weight: 30

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="home-shell">
+  <section class="home-hero" aria-labelledby="home-title">
+    <h1 id="home-title">{{ site.Title }}</h1>
+    <p>{{ site.Params.tagline }}</p>
+    <nav class="home-nav" aria-label="主导航">
+      {{- range site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{- end }}
+    </nav>
+    {{- with site.Params.github }}
+    <a class="home-github" href="{{ . }}" rel="me">GitHub</a>
+    {{- end }}
+  </section>
+  {{ partial "footer.html" . }}
+</main>
+{{ end }}

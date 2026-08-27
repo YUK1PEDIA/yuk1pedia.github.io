@@ -1,0 +1,36 @@
+{{ define "main" }}
+<main class="site-main section-inner thin">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </header>
+
+  {{- $pages := .Pages.ByDate.Reverse -}}
+  {{- if eq .Section "posts" -}}
+  <div class="archive-list">
+    {{- range $pages.GroupByDate "2006" }}
+    <section class="year-group" aria-labelledby="year-{{ .Key }}">
+      <h2 id="year-{{ .Key }}">{{ .Key }}</h2>
+      <ol>
+        {{- range .Pages }}
+        <li>
+          <a class="post-row" href="{{ .RelPermalink }}">
+            <span class="post-row-title">{{ .Title }}</span>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+          </a>
+        </li>
+        {{- end }}
+      </ol>
+    </section>
+    {{- end }}
+  </div>
+  {{- else }}
+  <ul class="plain-list">
+    {{- range $pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{- end }}
+  </ul>
+  {{- end }}
+  {{ partial "footer.html" . }}
+</main>
+{{ end }}

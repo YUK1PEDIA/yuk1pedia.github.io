@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale | default "zh-cn" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="{{ if .IsHome }}home-page{{ else }}inner-page{{ end }}">
+  {{ block "main" . }}{{ end }}
+  {{ if not .IsHome }}{{ partial "site-nav.html" . }}{{ end }}
+</body>
+</html>
