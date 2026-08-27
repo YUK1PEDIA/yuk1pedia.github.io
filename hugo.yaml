@@ -40,7 +40,7 @@ minify:
 
 params:
   description: "思考、技术与生活的长期记录"
-  tagline: "welcome to my blog ~ ෆ( ˶'ᵕ'˶)ෆ"
+  tagline: "welcome to my blog ~ ( ˶'ᵕ'˶)"
   author: "YUK1PEDIA"
   github: "https://github.com/YUK1PEDIA"
   footer: "All rights reserved."
