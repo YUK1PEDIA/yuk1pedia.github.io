@@ -9,7 +9,6 @@ AI Infrastructure Engineer, focusing on inference systems, model optimization, a
 
 Photography enthusiast, always capturing aesthetically pleasing moments.
 
-Blog: https://yukipedia.cn
 QQ: 904255490, hit me up ~
 
 以自己想要的方式过完一生，就是成功
