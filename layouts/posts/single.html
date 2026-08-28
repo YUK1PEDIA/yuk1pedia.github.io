@@ -18,15 +18,6 @@
       {{ .Content }}
     </div>
 
-    <footer class="post-info">
-      {{- with .GetTerms "tags" }}
-      <div class="post-tags" aria-label="标签">
-        {{- range . }}<a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}
-      </div>
-      {{- end }}
-      <p>{{ .WordCount }} Words · {{ .ReadingTime }} Min Read</p>
-    </footer>
-
     <nav class="post-nav" aria-label="相邻文章">
       {{- with .PrevInSection }}<a class="prev-post" href="{{ .RelPermalink }}"><span>上一篇</span>{{ .Title }}</a>{{ end }}
       {{- with .NextInSection }}<a class="next-post" href="{{ .RelPermalink }}"><span>下一篇</span>{{ .Title }}</a>{{ end }}
